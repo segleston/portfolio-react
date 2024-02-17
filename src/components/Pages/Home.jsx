@@ -1,7 +1,9 @@
+
+
 const Home = () => {
     return (
     <>
-    <h1>Welcome to my portfolio</h1>
+    <h1 className=''>Welcome to my portfolio</h1>
     </>
     )
 }

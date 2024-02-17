@@ -1,43 +1,43 @@
 [
     {
         "id": 1,
-        "title": "",
-        "description": "",
-        "image": "link",
-        "github": "link",
-        "deployed": ""
-    },
-    {
-        "id": 1,
-        "title": "",
-        "description": "",
-        "image": "link",
-        "github": "link",
-        "deployed": ""
-    },
-    {
-        "id": 1,
-        "title": "",
-        "description": "",
-        "image": "link",
-        "github": "link",
-        "deployed": ""
-    },
-    {
-        "id": 1,
-        "title": "",
-        "description": "",
-        "image": "link",
-        "github": "link",
-        "deployed": ""
+        "title": "Birthday Blast from the Past",
+        "description": "test",
+        "image": "url(/assets/images/projects/Birthday.mp4)",
+        "github": "https://github.com/segleston/birthday-blast-from-the-past/",
+        "deployed": "https://segleston.github.io/birthday-blast-from-the-past/"
     },
     {
         "id": 2,
-        "title": "",
+        "title": "Buffy Quiz",
+        "description": "test",
+        "image": "url(/assets/images/projects/Buffy.png)",
+        "github": "https://github.com/segleston/buffy-quiz/",
+        "deployed": "https://segleston.github.io/buffy-quiz/"
+    },
+    {
+        "id": 3,
+        "title": "Weather Dashboard",
         "description": "",
-        "image": "link",
-        "github": "link",
-        "deployed": ""
+        "image": "url(/assets/images/projects/Weather.png",
+        "github": "https://github.com/segleston/weather-dashboard/",
+        "deployed": "https://segleston.github.io/weather-dashboard/"
+    },
+    {
+        "id": 4,
+        "title": "Password Generator",
+        "description": "",
+        "image": "url(/assets/images/projects/",
+        "github": "https://github.com/segleston/password-generator",
+        "deployed": "https://segleston.github.io/password-generator/"
+    },
+    {
+        "id": 5,
+        "title": "Work Day Scheduler",
+        "description": "",
+        "image": "url(/assets/images/projects/",
+        "github": "https://github.com/segleston/work-day-scheduler",
+        "deployed": "https://segleston.github.io/work-day-scheduler/"
     },
     {
         "id": 1,
