@@ -7,20 +7,19 @@ const Contact = () => {
             <div>
                 <h1>Contact me</h1>
                 <Form>
-                    <Form.Group className="mb-3" controlId="formBasicEmail">
-                        <Form.Label>Email address</Form.Label>
-                        <Form.Control type="email" placeholder="Enter email" />
-                        <Form.Text className="text-muted">
-
-                        </Form.Text>
+                    <Form.Group>
+                        <Form.Label>Enter your full name:</Form.Label>
+                        <Form.Control type="text"
+                            placeholder="Enter your full name" />
                     </Form.Group>
-
-                    <Form.Group className="mb-3" controlId="formBasicPassword">
-                        <Form.Label>Password</Form.Label>
-                        <Form.Control type="password" placeholder="Password" />
+                    <Form.Group>
+                        <Form.Label>Enter your email address:</Form.Label>
+                        <Form.Control type="email"
+                            placeholder="Enter your your email address" />
                     </Form.Group>
-                    <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                        <Form.Check type="checkbox" label="Check me out" />
+                    <Form.Group className="mb-3" >
+                        <Form.Label>Your message:</Form.Label>
+                        <Form.Control as="textarea" aria-label="With textarea" placeholder="Enter your your message"  />
                     </Form.Group>
                     <Button variant="primary" type="submit">
                         Submit
