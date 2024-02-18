@@ -5,7 +5,10 @@ const Contact = () => {
     return (
         <>
             <div>
-                <h1>Contact me</h1>
+                <div className='d-flex justify-content-around'>
+                <h1 className='heading-font p-5 m-5 text-center'>Contact me</h1>
+                </div>
+                <div>
                 <Form>
                     <Form.Group>
                         <Form.Label>Enter your full name:</Form.Label>
@@ -25,6 +28,7 @@ const Contact = () => {
                         Submit
                     </Button>
                 </Form>
+                </div>
             </div>
         </>
     )
