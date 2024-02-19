@@ -2,17 +2,16 @@ import React from 'react';
 
 
 export default function MyFooter() {
-    return (
-            <footer class="footer">
+  return (
+<footer class="footer mt-5 mb-2">
   <div>
-    <a href="https://coreui.io">CoreUI</a>
-    <span>&copy; Sarah Egleston </span>
-  </div>
-  <div>
+  <i class="fa-solid fa-envelope"></i>
     <span>ICONS</span>
-    <a href="https://coreui.io">CoreUI</a>
+  </div>
+  <div class="align-right">
+    <span>&copy; Sarah Egleston 2024</span>
   </div>
 </footer>
 
-    );
+  );
 }

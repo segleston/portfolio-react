@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Headshot from '../../assets/images/photo/ir.png'
 
 function Home() {
     return (
@@ -13,7 +14,7 @@ function Home() {
                             <p className='mx-5 home-text'>I'm Sarah Egleston, a Front End Web Developer and this is my portfolio.</p>
                         </Col>
                         <Col className='py-5'>
-                            <img src='../../images/photo/ir.png' className='img-fluid' alt='Photo of Sarah Egleston' />
+                            <img src={Headshot} className='img-fluid' alt='Photo of Sarah Egleston' />
                         </Col>
                     </Row>
                 </Container>

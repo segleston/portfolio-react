@@ -6,7 +6,7 @@ function ProjectDetails() {
   const { id } = useParams();
   console.log('ID:', id); 
 
-  const project = projects.find(project => project.id === id);
+  const project = projects.find(project => project.id == id);
   console.log('Project:', project); 
 
   if (!project) {

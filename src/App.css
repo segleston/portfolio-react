@@ -104,3 +104,12 @@ form {
   opacity: .9;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px; 
+}
+
+.align-right {
+  margin-left: auto;
+}
