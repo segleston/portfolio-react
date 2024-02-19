@@ -11,28 +11,30 @@ const Contact = () => {
                 <div  className="container">
                     <div className='row'>
                         <div className='col-md-6'>
-                <Form>
-                    <Form.Group>
+                <Form className='form-area'>
+                    <Form.Group className='p-2'>
                         <Form.Label>Enter your full name:</Form.Label>
                         <Form.Control type="text"
-                            placeholder="Full Name" />
+                            placeholder="Full Name" className='form-style'/>
                     </Form.Group>
-                    <Form.Group>
+                    <Form.Group className='p-2'>
                         <Form.Label>Enter your email address:</Form.Label>
                         <Form.Control type="email"
-                            placeholder="Email" />
+                            placeholder="Email" className='form-style'/>
                     </Form.Group>
-                    <Form.Group className="mb-3" >
+                    <Form.Group className="mb-3 p-2" >
                         <Form.Label>Your message:</Form.Label>
-                        <Form.Control as="textarea" aria-label="With textarea" placeholder="Message"  />
+                        <Form.Control as="textarea" aria-label="With textarea" placeholder="Message" className='form-style' />
                     </Form.Group>
-                    <Button variant="primary" type="submit">
+                    <Button className='contact-button' >
                         Submit
                     </Button>
                 </Form>
                 </div>
                 <div className='col-md-6'>
-                <h1>TEST</h1>
+                <a href='https://www.linkedin.com/in/sarah-egleston/'><img src='../../assets/images/photo/linkedin-icon.png'/></a>
+                <a href='mailto:sarah.c.egleston@gmail.com'><img src='../../assets/images/photo/mail-icon.png'/></a>
+                <a href='https://github.com/segleston'><img src='../../assets/images/photo/github-icon.png'/></a>
                 </div>
                 </div>
                 </div>

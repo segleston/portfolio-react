@@ -11,9 +11,14 @@ nav {
 }
 
 form {
-  width: 50%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
+  background-color: #EDDCD9;
+  border: 2px solid #264143;
+  border-radius: 20px;
+  box-shadow: 3px 4px 0px 1px #E99F4C;
+  padding: 50px;
 }
 
 .welcome-font {
@@ -38,7 +43,34 @@ form {
   font-family: Georgia, Times, Times New Roman, serif;
   font-size: 4rem !important;
   width: 50%;
+  text-align: center;
 }
 .card-button {
   background-color: green !important;
+}
+/* .project-card {
+  border-radius: 50px;
+  background: #b66363;
+  box-shadow:  32px 32px 57px #9b5454, -32px -32px 57px #d17272;
+} */
+
+.form_style {
+  outline: none;
+  border: 2px solid #264143 !important;
+  box-shadow: 3px 4px 0px 1px #E99F4C !important;
+  width: 290px;
+  padding: 12px 10px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.contact-button {
+  padding: 15px;
+  margin: 25px 0px;
+  width: 290px;
+  font-size: 15px;
+  background: #DE5499 !important;
+  border-radius: 10px;
+  font-weight: 800;
+  box-shadow: 3px 3px 0px 0px #E99F4C !important;
 }

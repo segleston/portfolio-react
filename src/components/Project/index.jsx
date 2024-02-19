@@ -1,5 +1,5 @@
 //card from bootstrap called ProjectCard
-
+import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 export default function ProjectCard({ project }) {
     return (
         <a href={`/project/${project.id}`}>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem', height: '300px'}} className='project-card'>
                 <Card.Img variant="top" src="holder.js/100px180" />
                 <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
