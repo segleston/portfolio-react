@@ -9,11 +9,11 @@ function Home() {
             <div className='d-flex justify-content-around'>
                 <Container className='p-5 m-5'>
                     <Row className=''>
-                        <Col className='py-5'>
+                        <Col className='p-5 mx-4'>
                             <h1 className='m-5 py-3 welcome-font'>WELCOME</h1>
                             <p className='mx-5 home-text'>I'm Sarah Egleston, a Front End Web Developer and this is my portfolio.</p>
                         </Col>
-                        <Col className='py-5'>
+                        <Col className='p-5 m-5'>
                             <img src={Headshot} className='img-fluid' alt='Photo of Sarah Egleston' />
                         </Col>
                     </Row>

@@ -4,10 +4,10 @@ import projects from '../../projects.json';
 
 function ProjectDetails() {
   const { id } = useParams();
-  console.log('ID:', id); 
+  console.log('ID:', id);
 
   const project = projects.find(project => project.id == id);
-  console.log('Project:', project); 
+  console.log('Project:', project);
 
   if (!project) {
     return <div>Project not found</div>;
@@ -15,12 +15,17 @@ function ProjectDetails() {
 
   return (
     <>
-    <div>
-      <h2>{project.title}</h2>
-      <p>{project.description}</p>
-      <a href={project.deployed}>Deployed site</a>
-      <a href={project.github}>Github Repo</a>
-    </div>
+      <Card style={{ width: '25rem', height: '500px' }} className='project-card'>
+        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Body>
+          <Card.Title>{project.title}</Card.Title>
+          <Card.Text>
+            {project.description}
+          </Card.Text>
+          <a href={project.deployed}><Button variant="primary" className='m-1 card-button'>Deployed site</Button></a>
+          <a href={project.github}><Button variant="primary" className='card-button'>Github Repo</Button></a>
+        </Card.Body>
+      </Card>
     </>
   );
 }
