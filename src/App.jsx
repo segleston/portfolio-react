@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import MyNav from './components/Navbar';
 import MyFooter from './components/Footer'
 import { Contact, Custom404, Home, ProjectGallery, ProjectDetails } from './components/Pages';

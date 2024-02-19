@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from "react-router-dom";
 
 function MyNav() {
   return (
@@ -11,6 +12,7 @@ function MyNav() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto px-5">
             <Nav.Link href="./" className='px-3'>Home</Nav.Link>
+            <Link to="/" className='px-3'>Home</Link>
             <Nav.Link href="./portfolio" className='px-3'>Portfolio</Nav.Link>
             <Nav.Link href="./contact" className='px-3'>Contact</Nav.Link>
           </Nav>
