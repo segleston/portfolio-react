@@ -6,6 +6,10 @@
   background-color: #EDDCD9;
 }
 
+h1 {
+  text-shadow: 3px 3px #E99F4C;
+}
+
 nav {
   width: 100vw;
   background-color: #E99F4C;
@@ -30,7 +34,7 @@ nav {
 }
 
 form {
-  width: 70%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
@@ -42,17 +46,19 @@ form {
 }
 
 .welcome-font {
-  font-size: 6em !important;
+  font-size: 6.2em !important;
   font-family: "Playfair Display", serif;
   font-weight: 900 !important;
-  font-style: normal;
+  /* font-style: normal; */
   text-align: left;
+  color: #3a3a3a;
 }
 
 .home-text {
-  font-size: 1.3rem !important;
+  font-size: 1.5rem !important;
   text-align: left !important;
   font-family: Georgia, Times, Times New Roman, serif;
+  color: #3a3a3a;
 }
 
 /* .welcome-container {
@@ -64,6 +70,7 @@ form {
   font-size: 4rem !important;
   width: 50%;
   text-align: center;
+  padding-top: 70px;
 }
 .card-button {
   font-size: 15px;
@@ -90,7 +97,7 @@ form {
   outline: none;
   border: 2px solid #264143 !important;
   box-shadow: 3px 4px 0px 1px #E99F4C !important;
-  width: 290px;
+  width: 100%;
   padding: 12px 10px;
   border-radius: 4px;
   font-size: 15px;
@@ -132,4 +139,8 @@ form {
 
 .footer a:hover {
   opacity: 0.7;
+}
+.button-div {
+  display: flex;
+  justify-content: center;
 }

@@ -15,8 +15,8 @@ function ProjectGallery() {
    return (
       <div className='container text-center'>
          <div className='row'>
-            <div className='col'>
-               <h1 className='heading-font p-5 m-5'>Portfolio Gallery</h1>
+            <div className='col d-flex justify-content-around'>
+               <h1 className='heading-font m-5'>Portfolio Gallery</h1>
             </div>
          </div>
          <div className="row justify-content-center">
