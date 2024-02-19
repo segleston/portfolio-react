@@ -26,7 +26,7 @@ const Contact = () => {
                         <Form.Label>Your message:</Form.Label>
                         <Form.Control as="textarea" aria-label="With textarea" placeholder="Message" className='form-style' />
                     </Form.Group>
-                    <Button className='contact-button' >
+                    <Button className='page-button' type="submit">
                         Submit
                     </Button>
                 </Form>

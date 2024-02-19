@@ -7,7 +7,11 @@
 
 nav {
   width: 100vw;
-
+  background-color: #E99F4C;
+  opacity: 80%;
+  border-bottom: #DE5499 solid 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
 }
 
 form {
@@ -46,13 +50,24 @@ form {
   text-align: center;
 }
 .card-button {
-  background-color: green !important;
+  font-size: 15px;
+  background: #DE5499 !important;
+  border-radius: 10px;
+  font-weight: 800;
+  box-shadow: 3px 3px 0px 0px #E99F4C !important;
+  border: black !important;
+  margin: 10px;
 }
-/* .project-card {
-  border-radius: 50px;
-  background: #b66363;
-  box-shadow:  32px 32px 57px #9b5454, -32px -32px 57px #d17272;
-} */
+.project-card {
+  outline: none;
+  border: 2px solid #264143 !important;
+  box-shadow: 3px 4px 0px 1px #E99F4C !important;
+  width: 290px;
+  padding: 12px 10px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
 
 .form_style {
   outline: none;
@@ -64,7 +79,7 @@ form {
   font-size: 15px;
 }
 
-.contact-button {
+.page-button {
   padding: 15px;
   margin: 25px 0px;
   width: 290px;
@@ -73,4 +88,9 @@ form {
   border-radius: 10px;
   font-weight: 800;
   box-shadow: 3px 3px 0px 0px #E99F4C !important;
+  border: black !important;
+}
+
+.btn:hover {
+  opacity: .9;
 }
