@@ -3,32 +3,34 @@
   margin: 0 auto;
   /* text-align: center; */
   min-height: 100vh;
+  background-color: #EDDCD9;
 }
 
 nav {
   width: 100vw;
   background-color: #E99F4C;
-  opacity: 80%;
+  opacity: 70%;
   border-bottom: #DE5499 solid 5px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: medium;
+  font-size: large;
 }
 
 form {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
   background-color: #EDDCD9;
   border: 2px solid #264143;
   border-radius: 20px;
-  box-shadow: 3px 4px 0px 1px #E99F4C;
+  box-shadow: 3px 4px 0px 1px #E99F4C !important;
   padding: 50px;
 }
 
 .welcome-font {
   font-size: 6em !important;
   font-family: "Playfair Display", serif;
-  font-weight: 800 !important;
+  font-weight: 900 !important;
   font-style: normal;
   text-align: left;
 }
@@ -44,7 +46,7 @@ form {
 } */
 
 .heading-font {
-  font-family: Georgia, Times, Times New Roman, serif;
+  font-family: "Playfair Display", serif;
   font-size: 4rem !important;
   width: 50%;
   text-align: center;
@@ -66,6 +68,7 @@ form {
   padding: 12px 10px;
   border-radius: 4px;
   font-size: 15px;
+  background-color: #EDDCD9 !important;
 }
 
 
@@ -94,3 +97,4 @@ form {
 .btn:hover {
   opacity: .9;
 }
+
