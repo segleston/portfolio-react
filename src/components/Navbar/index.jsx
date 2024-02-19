@@ -5,14 +5,14 @@ import Navbar from 'react-bootstrap/Navbar';
 function MyNav() {
   return (
     <Navbar expand="lg" className="my-nav fixed-top">
-      <Container>
-        <Navbar.Brand href="#home" className="mr-auto">SE</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Container className=''>
+        <Navbar.Brand href="#home" className="mr-auto px-5">SE</Navbar.Brand>
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto">
-            <Nav.Link href="./">Home</Nav.Link>
-            <Nav.Link href="./portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="./contact">Contact</Nav.Link>
+          <Nav className="ml-auto px-5">
+            <Nav.Link href="./" className='px-3'>Home</Nav.Link>
+            <Nav.Link href="./portfolio" className='px-3'>Portfolio</Nav.Link>
+            <Nav.Link href="./contact" className='px-3'>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

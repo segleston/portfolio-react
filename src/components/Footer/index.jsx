@@ -6,10 +6,10 @@ export default function MyFooter() {
             <footer class="footer">
   <div>
     <a href="https://coreui.io">CoreUI</a>
-    <span>&copy; 2022 creativeLabs.</span>
+    <span>&copy; Sarah Egleston </span>
   </div>
   <div>
-    <span>Powered by</span>
+    <span>ICONS</span>
     <a href="https://coreui.io">CoreUI</a>
   </div>
 </footer>

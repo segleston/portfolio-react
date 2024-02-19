@@ -9,7 +9,6 @@ function App() {
   return (
     <Router >
       <MyNav />
-      {/* <MyFooter /> */}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='portfolio' element={<ProjectGallery />} />
@@ -17,6 +16,7 @@ function App() {
         <Route path='404' element={<Custom404 />} />
         <Route path="/project/:id" element={<ProjectDetails />} />
       </Routes>
+      <MyFooter />
     </Router>
   )
 }

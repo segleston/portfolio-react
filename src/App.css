@@ -13,6 +13,12 @@ nav {
   border-bottom: #DE5499 solid 5px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: large;
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+.my-nav .navbar-nav {
+  margin-left: auto !important;
 }
 
 form {
