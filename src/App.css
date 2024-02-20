@@ -73,6 +73,7 @@ form {
   text-align: center;
   padding-top: 70px;
   color: #3a3a3a;
+  font-weight: 600 !important;
 }
 .card-button {
   font-size: 15px;
