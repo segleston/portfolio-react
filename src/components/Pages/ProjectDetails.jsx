@@ -21,7 +21,7 @@ function ProjectDetails() {
       <div className='row justify-content-center pt-5 m-5'>
         <div className='col-md-6 d-flex justify-content-center pt-5'>
           <Card style={{ width: '50rem', height: '600px' }} className='project-card'>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={project.image} />
             <Card.Body>
               <Card.Title>{project.title}</Card.Title>
               <Card.Text>

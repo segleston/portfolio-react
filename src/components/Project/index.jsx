@@ -6,15 +6,17 @@ import { Link } from 'react-router-dom'; // Import Link from React Router
 export default function ProjectCard({ project }) {
     return (
         <Link to={`/project/${project.id}`} className="text-decoration-none card-font"> {/* Use hash route for the link */}
-            <Card style={{ width: '20rem', height: '400px'}} className='project-card'>
-                <Card.Img variant="top" src="holder.js/100px180" />
-                <Card.Body>
-                    <Card.Title>{project.title}</Card.Title>
-                    <Card.Text>
-                    {project.description}
-                    </Card.Text>
-                    <a href={project.deployed}><Button variant="primary" className='m-1 card-button'>Application</Button></a>
-                    <a href={project.github}><Button variant="primary" className='card-button'>Repository</Button></a>
+            <Card style={{ width: '20rem', height: '450px'}} className='project-card'>
+                <Card.Img variant="top" src={project.image} className='pt-3 card-image'/>
+                <Card.Body className="d-flex flex-column pt-2 card-font">
+                    <div>
+                        <Card.Title className='pt-3 pb-2'>{project.title}</Card.Title>
+                        <Card.Text className='pb-3'>{project.description}</Card.Text>
+                    </div>
+                    <div className="mt-auto pb-1">
+                        <a href={project.deployed}><Button variant="primary" className='m-1 card-button'>Application</Button></a>
+                        <a href={project.github}><Button variant="primary" className='card-button'>Repository</Button></a>
+                    </div>
                 </Card.Body>
             </Card>
         </Link>

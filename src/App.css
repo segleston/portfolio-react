@@ -88,7 +88,7 @@ form {
   border: 2px solid #264143 !important;
   box-shadow: 3px 4px 0px 1px #E99F4C !important;
   width: 290px;
-  padding: 12px 10px;
+  padding: 15px;
   border-radius: 4px;
   font-size: 15px;
   background-color: #EDDCD9 !important;
@@ -154,4 +154,7 @@ form {
 .button-div {
   display: flex;
   justify-content: center;
+}
+.card-font {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }

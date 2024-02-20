@@ -7,7 +7,7 @@ import Card from 'react-bootstrap/Card';
 
 function ProjectGallery() {
    const projectList = projects.map(project => (
-      <div key={project.id} className="col-md-4 my-5 d-flex justify-content-center">
+      <div key={project.id} className="col-md-4 my-5 d-flex justify-content-center p-2">
          <ProjectCard project={project} />
       </div>
    ));
