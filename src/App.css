@@ -4,6 +4,7 @@
   /* text-align: center; */
   min-height: 100vh;
   background-color: #EDDCD9;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -90,8 +91,11 @@ form {
   border-radius: 4px;
   font-size: 15px;
   background-color: #EDDCD9 !important;
+  transition: transform 0.3s ease;
 }
-
+.project-card:hover {
+  transform: scale(1.1);
+}
 
 .form_style {
   outline: none;
