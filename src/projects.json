@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Birthday Blast from the Past",
         "description": "A collaborative web application that combines personal information with movie data to create a nostalgic journey through time, using HTML5, CSS3, two API's and jQuery.",
-        "image": "/images/birthday.png",
+        "image": "images/birthday.png",
         "github": "https://github.com/segleston/birthday-blast-from-the-past/",
         "deployed": "https://segleston.github.io/birthday-blast-from-the-past/"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "title": "Buffy Quiz",
         "description": "A timed coding quiz with multiple-choice questions, using using HTML5, CSS3, JavaScript",
-        "image": "/images/Buffy.png",
+        "image": "images/Buffy.png",
         "github": "https://github.com/segleston/buffy-quiz/",
         "deployed": "https://segleston.github.io/buffy-quiz/"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "title": "Password Generator",
         "description": "Password generator created using HTML5, CSS3 and JavaScript",
-        "image": "/images/password.png",
+        "image": "images/password.png",
         "github": "https://github.com/segleston/password-generator",
         "deployed": "https://segleston.github.io/password-generator/"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "title": "Work Day Scheduler",
         "description": "A calendar application that allows a user to save events for each hour of the day, using HTML5, CSS3 and JavaScript",
-        "image": "/images/WeekdayScheduler.png",
+        "image": "images/WeekdayScheduler.png",
         "github": "https://github.com/segleston/work-day-scheduler",
         "deployed": "https://segleston.github.io/work-day-scheduler/"
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "title": "Bootstrap Portfolio",
         "description": "Basic portfolio using HTML5 and Bootstrap CSS.",
-        "image": "/images/bootstrap.png",
+        "image": "images/bootstrap.png",
         "github": "https://github.com/segleston/Bootstrap-Portfolio",
         "deployed": "https://segleston.github.io/Bootstrap-Portfolio/"
     }

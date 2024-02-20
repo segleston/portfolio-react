@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'; // Import Link from React Router
 
 export default function ProjectCard({ project }) {
     return (
-        <Link to={`/project/${project.id}`} className="text-decoration-none card-font"> {/* Use hash route for the link */}
+        <Link to={`/project/${project.id}`} className="text-decoration-none card-font"> 
             <Card style={{ width: '20rem', height: '450px'}} className='project-card'>
                 <Card.Img variant="top" src={project.image} className='pt-3 card-image'/>
                 <Card.Body className="d-flex flex-column pt-2 card-font">
