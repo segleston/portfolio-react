@@ -15,7 +15,7 @@ const Contact = () => {
                 </div>
                 <div className="container">
                     <div className='row align-center justify-content-center'>
-                        <div className=''>
+                        <div className='form-div'>
                             <Form className='form-area'>
                                 <Form.Group className='p-1'>
                                     <Form.Label>Enter your full name:</Form.Label>

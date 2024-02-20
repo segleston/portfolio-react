@@ -17,10 +17,15 @@ function ProjectDetails() {
   }
 
   return (
-    <div className='container text-center p-5'>
-      <div className='row justify-content-center pt-5 m-5'>
-        <div className='col-md-6 d-flex justify-content-center pt-5'>
-          <Card style={{ width: '50rem', height: '600px' }} className='project-card'>
+    <div className='container text-center'>
+               <div className='row'>
+            <div className='col d-flex justify-content-around'>
+               <h1 className='heading-font m-5'>Project Details</h1>
+            </div>
+         </div>
+      <div className='row justify-content-center'>
+        <div className=' d-flex justify-content-center card-details'>
+          <Card style={{ width: '60rem', height: '800px' }} className='details-card'>
             <Card.Img variant="top" src={project.image} className='py-4'/>
             <Card.Body>
               <Card.Title className='py-3'>{project.title}</Card.Title>
