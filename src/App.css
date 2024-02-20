@@ -72,6 +72,7 @@ form {
   width: 50%;
   text-align: center;
   padding-top: 70px;
+  color: #3a3a3a;
 }
 .card-button {
   font-size: 15px;
@@ -96,6 +97,7 @@ form {
 .project-card:hover {
   transform: scale(1.1);
 }
+
 
 .form_style {
   outline: none;
@@ -133,6 +135,11 @@ form {
   color: #DE5499;
   text-decoration: none;
   font-size: 1.5em;
+}
+.contact-links a {
+  text-decoration: none;
+  font-size: 1.8em;
+  color: #3a3a3a;
 }
 
 .align-right {

@@ -2,39 +2,39 @@
     {
         "id": 1,
         "title": "Birthday Blast from the Past",
-        "description": "test",
-        "image": "url(/assets/images/projects/Birthday.mp4)",
+        "description": "A collaborative web application that combines personal information with movie data to create a nostalgic journey through time, using HTML5, CSS3, two API's and jQuery.",
+        "image": "url(../public/images/Birthday.mp4)",
         "github": "https://github.com/segleston/birthday-blast-from-the-past/",
         "deployed": "https://segleston.github.io/birthday-blast-from-the-past/"
     },
     {
         "id": 2,
         "title": "Buffy Quiz",
-        "description": "test",
-        "image": "url(/assets/images/projects/Buffy.png)",
+        "description": "A timed coding quiz with multiple-choice questions, using using HTML5, CSS3, JavaScript",
+        "image": "./public/images/Buffy.png",
         "github": "https://github.com/segleston/buffy-quiz/",
         "deployed": "https://segleston.github.io/buffy-quiz/"
     },
     {
         "id": 3,
         "title": "Weather Dashboard",
-        "description": "",
-        "image": "url(/assets/images/projects/Weather.png",
+        "description": "Weather dashboard showing the current days weather for the seached location, and 5 day forecast, using HTML5, CSS3, JavaScript and a Weather API.",
+        "image": "url(../public/images/Weather.png)",
         "github": "https://github.com/segleston/weather-dashboard/",
         "deployed": "https://segleston.github.io/weather-dashboard/"
     },
     {
         "id": 4,
         "title": "Password Generator",
-        "description": "",
-        "image": "url(/assets/images/projects/",
+        "description": "Password generator created using HTML5, CSS3 and JavaScript",
+        "image": "url(../assets/images/projects/",
         "github": "https://github.com/segleston/password-generator",
         "deployed": "https://segleston.github.io/password-generator/"
     },
     {
         "id": 5,
         "title": "Work Day Scheduler",
-        "description": "",
+        "description": "A calendar application that allows a user to save events for each hour of the day, using HTML5, CSS3 and JavaScript",
         "image": "url(/assets/images/projects/",
         "github": "https://github.com/segleston/work-day-scheduler",
         "deployed": "https://segleston.github.io/work-day-scheduler/"
