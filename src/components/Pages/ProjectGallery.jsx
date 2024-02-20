@@ -19,7 +19,7 @@ function ProjectGallery() {
                <h1 className='heading-font m-5'>Portfolio Gallery</h1>
             </div>
          </div>
-         <div className="row justify-content-center">
+         <div className="row justify-content-center gallery-cards">
             {projectList}
          </div>
       </div>

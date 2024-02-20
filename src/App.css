@@ -145,6 +145,7 @@ form {
   display: flex;
   justify-content: space-between;
   padding: 0 50px; 
+  position: fixed;
 }
 
 .footer a {
@@ -183,6 +184,11 @@ form {
   justify-content: space-between;
   padding-top: 150px;
   padding-left: 150px;
+  padding-bottom: 100px;
+}
+
+.gallery-cards {
+  padding-bottom: 100px;
 }
 
 @media only screen and (max-width: 1200px) {
