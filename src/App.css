@@ -159,3 +159,20 @@ form {
 .card-font {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.container-home {
+  padding-left: 80px !important;
+  padding-top: 80px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .welcome-font {
+    font-size: 5em !important;
+  }
+  .home-text {
+    font-size: 1rem !important;
+  }
+  .container-home {
+    padding-left: 150px !important;
+}
+
+  

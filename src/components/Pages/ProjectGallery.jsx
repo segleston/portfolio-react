@@ -13,7 +13,7 @@ function ProjectGallery() {
    ));
 
    return (
-      <div className='container text-center'>
+      <div className='container text-center pb-5'>
          <div className='row'>
             <div className='col d-flex justify-content-around'>
                <h1 className='heading-font m-5'>Portfolio Gallery</h1>
