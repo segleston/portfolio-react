@@ -14,7 +14,7 @@ function MyNav() {
             <Link to="/" className='px-3 nav-link'>Home</Link>
             <Link to="/portfolio" className='px-3 nav-link'>Portfolio</Link>
             <Link to="/contact" className='px-3 nav-link'>Contact</Link>
-            <Link to="/SarahEglestonCV.pdf" className='px-3 nav-link'>Resume</Link>
+            <Link to="/resume" className='px-3 nav-link'>Resume</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

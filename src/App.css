@@ -45,6 +45,9 @@ form {
   box-shadow: 3px 4px 0px 1px #E99F4C !important;
   padding: 50px;
 }
+.resume-container {
+  padding-bottom: 150px;
+}
 
 .form-div {
   padding-bottom: 100px;
