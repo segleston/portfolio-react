@@ -34,8 +34,8 @@ function ProjectDetails() {
               <Card.Text className='py-3'>
                 {project.description}
               </Card.Text>
-              <a href={project.deployed}><Button variant="primary" className='m-1 card-button'>Deployed Site</Button></a>
-              <a href={project.github}><Button variant="primary" className='card-button'>Github Repo</Button></a>
+              <a href={project.deployed}><Button variant="primary" className='m-1 card-button'>Application</Button></a>
+              <a href={project.github}><Button variant="primary" className='card-button'>Repository</Button></a>
             </Card.Body>
           </Card>
         </div>
