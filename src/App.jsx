@@ -14,7 +14,7 @@ function App() {
         <Route path='portfolio' element={<ProjectGallery />} />
         <Route path='contact' element={<Contact />} />
         <Route path='404' element={<Custom404 />} />
-        <Route path='resume' element={<Resume />} />
+        {/* <Route path='resume' element={<Resume />} /> */}
         <Route path="/project/:id" element={<ProjectDetails />} />
       </Routes>
       <MyFooter />
