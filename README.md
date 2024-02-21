@@ -27,9 +27,6 @@ My portfolio is a web application project created with JavaScript, React, HTML5 
 
 ![Contact us page](./public/images/contact.png)
 
-5. Resume Page: showing most recent version of resume.
-
-![Resume page](./public/images/resume.png)
 
 ## Technologies Used
 
