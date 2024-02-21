@@ -9,8 +9,8 @@ function Resume() {
                 <div className='row justify-content-center'>
                     <div className='col-md-8 d-flex justify-content-center'>
                         <iframe 
-                            src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
-                            style={{ width: '100%', height: '800px', maxWidth: '1000px' }} // Adjust width and height as needed
+                            src="/SarahEglestonCV.pdf"
+                            style={{ width: '100%', height: '800px', maxWidth: '1000px' }} 
                             title="Resume PDF"
                             frameBorder="0"
                         ></iframe>
