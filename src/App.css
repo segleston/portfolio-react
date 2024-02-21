@@ -42,7 +42,7 @@ nav {
   width: 100vw;
   background-color: #E99F4C;
   opacity: 70%;
-  /* border-bottom: #DE5499 solid 5px; */
+  border-bottom: #DE5499 solid 3px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   /* font-size: 1.4em; */
   display: flex !important;
