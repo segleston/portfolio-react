@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Resume function to embed resume pdf, using container/flex/justify-content classes for alignment and responsiveness
 function Resume() {
     return (
-        <div className="d-flex justify-content-center align-items-center flex-column mt-5">
+        <div className="d-flex justify-content-center align-items-center flex-column pt-5">
             <h1 className='heading-font m-5 text-center pb-3'>Resume</h1>
             <div className='container resume-container'>
                 <div className='row justify-content-center'>

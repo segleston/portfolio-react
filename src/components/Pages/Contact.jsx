@@ -10,9 +10,9 @@ const Contact = () => {
                     <h1 className='heading-font m-5 text-center pb-3 '>Contact me</h1>
                 </div>
                 <div className='d-flex justify-content-center mb-4 pb-3 contact-links'>
-                    <a href='mailto:sarah.c.egleston@gmail.com'><i className="px-3 fa-solid fa-envelope"></i></a>
-                    <a href='https://www.linkedin.com/in/sarah-egleston/' target='blank'><i className="px-3 fa-brands fa-linkedin"></i></a>
-                    <a href='https://github.com/segleston/' target='blank'><i className="px-3 fa-brands fa-github"></i></a>
+                    <a href='mailto:sarah.c.egleston@gmail.com'><i className="link fa-solid fa-envelope"></i></a>
+                    <a href='https://www.linkedin.com/in/sarah-egleston/' target='blank'><i className="link fa-brands fa-linkedin"></i></a>
+                    <a href='https://github.com/segleston/' target='blank'><i className="link fa-brands fa-github"></i></a>
                 </div>
                 <div className="container">
                     <div className='row align-center justify-content-center'>

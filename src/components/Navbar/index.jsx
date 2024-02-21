@@ -9,7 +9,7 @@ function MyNav() {
   return (
     <Navbar expand="lg" className="my-nav fixed-top">
       <Container className=''>
-        <Navbar.Brand href="#home" className="mr-auto px-5 title-nav">Sarah Egleston</Navbar.Brand>
+        <Navbar.Brand href="#home" className="mr-auto px-3 title-nav">Sarah Egleston</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto px-5">
