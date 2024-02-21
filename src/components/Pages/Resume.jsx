@@ -10,7 +10,7 @@ function Resume() {
                 <div className='row justify-content-center'>
                     <div className='col-md-8 d-flex justify-content-center'>
                         <iframe 
-                            src="/SarahEglestonCV.pdf"
+                            src="SarahEglestonCV.pdf"
                             style={{ width: '100%', height: '800px', maxWidth: '1000px' }} 
                             title="Resume PDF"
                             frameBorder="0"
