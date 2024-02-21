@@ -23,7 +23,7 @@ nav {
 }
 
 .my-nav {
-  font-size: 1.4em;
+  font-size: 1.4em !important;
 }
 
 .my-nav a:hover {
@@ -148,7 +148,11 @@ form {
   display: flex;
   justify-content: space-between;
   padding: 0 50px; 
-  position: fixed;
+  position: relative;
+  bottom: 0;
+}
+.title-nav {
+  color: #3a3a3a;
 }
 
 .footer a {
