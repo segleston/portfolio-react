@@ -1,5 +1,5 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import MyNav from './components/Navbar';
+import MyHeader from './components/Header';
 import MyFooter from './components/Footer'
 import { Contact, Custom404, Home, ProjectGallery, ProjectDetails, Resume } from './components/Pages';
 import './App.css'
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <Router >
-      <MyNav />
+      <MyHeader />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='portfolio' element={<ProjectGallery />} />

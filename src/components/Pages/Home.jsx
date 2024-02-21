@@ -13,8 +13,8 @@ function Home() {
         <div className='row py-5 px-2 w-100'>
             <div className='col-lg-7 col-sm-12'>
                 <h1 className='welcome-font py-4'>HELLO!</h1>
-                <p className='home-text'>I'm Sarah Egleston, a Front End Web Developer and welcome to my portfolio. </p>
-                <p className='home-text'>I have a passion for learning new skills, and recently moved into the realm of IT (RPA) having previously been an Emergency and Critical Care Veterinary Nurse. I am currently undertaking a Front End Web Development bootcamp with EdX.</p> 
+                <p className='home-text'>Welcome to my front end web portfolio. </p>
+                <p className='home-text'>Based in Bedfordshire, I have a passion for learning new skills and crafting visually captivating websites. I am currently undertaking a Front End Web Development bootcamp with EdX.</p> 
             </div>
             <div className='col-lg-5 col-sm-12 p-5 photo-div'>
                 {/* image source using imported photo */}

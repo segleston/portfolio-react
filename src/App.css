@@ -42,7 +42,7 @@ nav {
   width: 100vw;
   background-color: #E99F4C;
   opacity: 70%;
-  border-bottom: #DE5499 solid 5px;
+  /* border-bottom: #DE5499 solid 5px; */
   font-family: Georgia, 'Times New Roman', Times, serif;
   /* font-size: 1.4em; */
   display: flex !important;
@@ -63,6 +63,24 @@ nav {
 
 .title-nav {
   color: #3a3a3a;
+}
+
+/* header */
+
+.header-text {
+  font-family: "Playfair Display", serif;
+  font-size: 1.6em !important;
+  color: #3a3a3a;
+  font-weight: 600 !important;
+  /* text-shadow: 1px 1px #E99F4C; */
+  display: flex;
+  padding-left:20px;
+  /* margin-right: 200px !important; */
+}
+.header-background {
+  padding-top: 90px;
+  background-color:#E99F4C;
+  border-bottom: #DE5499 solid 4px;
 }
 
 /* Resume */
@@ -390,6 +408,9 @@ form {
   .heading-font {
     font-size: 2.4em !important;
   }
+  .header-text {
+  font-size: 1.4em !important;
+}
 }
 
 @media only screen and (max-width: 350px) {
@@ -447,6 +468,9 @@ form {
     padding-top: 60px;
     font-size: 16px !important;
     padding: 2px !important;
+  }
+  .header-text {
+    font-size: 1.2em !important;
   }
 }
 
