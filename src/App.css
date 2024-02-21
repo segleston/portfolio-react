@@ -107,7 +107,7 @@ form {
   box-shadow: 3px 4px 0px 1px #E99F4C !important;
   padding: 15px;
   border-radius: 4px;
-  font-size: 25px;
+  font-size: 25px !important;
   background-color: #EDDCD9 !important;
 }
 .card-details {
@@ -219,7 +219,7 @@ form {
     justify-content: center;
   }
   .container-home {
-    padding-left: 30px;
+    padding-left: 20px;
   }
   .align-right {
     font-size: 1.4em;
@@ -291,7 +291,7 @@ form {
     font-size: 3.3em !important;
   }
   .container-home {
-    padding-left: 20px;
+    padding-left: 7px;
   }
 }
 @media only screen and (max-width: 430px) {
