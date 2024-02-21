@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// Resume function to embed resume pdf, using container/flex/justify-content classes for alignment and responsiveness
 function Resume() {
     return (
         <div className="d-flex justify-content-center align-items-center flex-column mt-5">
@@ -20,5 +21,5 @@ function Resume() {
         </div>
     );
 }
-
+//export resume
 export default Resume;

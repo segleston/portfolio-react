@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
+//function for contact page, contact text heading, and icons with links to social media/github/link to email
 const Contact = () => {
     return (
         <>
@@ -16,6 +17,7 @@ const Contact = () => {
                 <div className="container">
                     <div className='row align-center justify-content-center'>
                         <div className='form-div'>
+                            {/* Form with name, email, message. Will need future functionality */}
                             <Form className='form-area'>
                                 <Form.Group className='p-1'>
                                     <Form.Label>Enter your full name:</Form.Label>
@@ -44,5 +46,5 @@ const Contact = () => {
         </>
     )
 }
-
+// export contact function
 export default Contact;

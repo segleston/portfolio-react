@@ -5,4 +5,4 @@ export {default as ProjectGallery} from './ProjectGallery';
 export {default as ProjectDetails} from './ProjectDetails';
 export { default as Resume } from './Resume';
 
-
+//exporting all components

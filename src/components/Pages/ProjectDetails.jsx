@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import projects from '../../projects.json';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-
+// function for project details page - using the data from clicked card
 function ProjectDetails() {
   const { id } = useParams();
 
@@ -13,6 +13,7 @@ function ProjectDetails() {
   const project = projects.find(project => project.id == projectId);
 
   if (!project) {
+    // show this error if no project found
     return <div>Project not found</div>;
   }
 
@@ -25,6 +26,7 @@ function ProjectDetails() {
          </div>
       <div className='row justify-content-center'>
         <div className=' d-flex justify-content-center card-details'>
+          {/* card with styling for project details page */}
           <Card style={{ width: '60rem', height: '800px' }} className='details-card'>
             <Card.Img variant="top" src={project.image} className='py-4'/>
             <Card.Body>

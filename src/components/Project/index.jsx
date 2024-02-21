@@ -3,6 +3,8 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom'; // Import Link from React Router
 
+
+//  Functional component to display individual book card with title, author(s), description, and a button
 export default function ProjectCard({ project }) {
     return (
         <Link to={`/project/${project.id}`} className="text-decoration-none card-font"> 

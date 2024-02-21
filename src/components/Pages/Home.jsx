@@ -3,10 +3,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Headshot from '../../assets/images/photo/ir.png'
 
+//function for home page
 function Home() {
     return (
         <>
-            {/* <div className='d-flex justify-content-around'> */}
+        {/* container holding  the images and text */}
             <div className='container-fluid p-0'>
     <div className='container-home'>
         <div className='row py-5 px-2 w-100'>
@@ -16,6 +17,7 @@ function Home() {
                 <p className='home-text'>I have a passion for learning new skills, and recently moved into the realm of IT (RPA) having previously been an Emergency and Critical Care Veterinary Nurse. I am currently undertaking a Front End Web Development bootcamp with EdX.</p> 
             </div>
             <div className='col-lg-5 col-sm-12 p-5 photo-div'>
+                {/* image source using imported photo */}
                 <img src={Headshot} className='img-fluid' alt='Photo of Sarah Egleston' />
             </div>
         </div>
