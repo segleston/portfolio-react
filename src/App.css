@@ -6,6 +6,9 @@
   background-color: #EDDCD9;
   scroll-behavior: smooth;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /* home */
 h1 {
@@ -18,7 +21,7 @@ h1 {
   justify-content: space-between;
   padding-top: 150px;
   padding-left: 150px;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
 }
 
 .welcome-font {
@@ -69,7 +72,7 @@ nav {
 
 .header-text {
   font-family: "Playfair Display", serif;
-  font-size: 1.6em !important;
+  font-size: 1.4em !important;
   color: #3a3a3a;
   font-weight: 600 !important;
   /* text-shadow: 1px 1px #E99F4C; */
@@ -214,6 +217,30 @@ nav {
   padding-right: 20px;
 }
 
+.skills-icon {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  font-size: 4em;
+  color: #3a3a3a;
+  text-shadow:3px 6px #E99F4C;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.skill-text {
+  display: none;
+  font-size: 1em !important;
+  color: #3a3a3a !important;
+  padding-top: 20px !important;
+  font-family: Georgia, Times, Times New Roman, serif;
+}
+/* .skills-icon:hover + .skill-text {
+  display: block;
+} */
+
+.icon-text {
+  text-align: center;
+}
 .form-div {
   padding-bottom: 100px;
 }
@@ -409,7 +436,7 @@ form {
     font-size: 2.4em !important;
   }
   .header-text {
-  font-size: 1.4em !important;
+  font-size: 1em !important;
 }
 }
 
@@ -470,7 +497,10 @@ form {
     padding: 2px !important;
   }
   .header-text {
-    font-size: 1.2em !important;
+    font-size: 0.7em !important;
+  }
+  .skills-icon {
+    font-size: 2.8em;
   }
 }
 
