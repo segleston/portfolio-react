@@ -9,11 +9,11 @@
     },
     {
         "id": 2,
-        "title": "Buffy Quiz",
-        "description": "A timed coding quiz with multiple-choice questions, using using HTML5, CSS3, JavaScript",
-        "image": "images/Buffy.png",
-        "github": "https://github.com/segleston/buffy-quiz/",
-        "deployed": "https://segleston.github.io/buffy-quiz/"
+        "title": "devOpps",
+        "description": "devOpps offers a comprehensive platform for all your tech hiring needs, making job searches and candidate sourcing hassle-free.",
+        "image": "images/homepage.png",
+        "github": "https://github.com/segleston/DevOpps",
+        "deployed": "https://devopps.app/"
     },
     {
         "id": 3,
