@@ -1,9 +1,9 @@
 #root {
-  max-width: 100 vw;
+  max-width: 100vw;
   margin: 0 auto;
   /* text-align: center; */
   min-height: 100vh;
-  background-color: #EDDCD9;
+  background-color: #181818;
   scroll-behavior: smooth;
 }
 html {
@@ -12,7 +12,7 @@ html {
 
 /* home */
 h1 {
-  text-shadow: 3px 3px #E99F4C;
+  /* text-shadow: 3px 3px #E99F4C; */
 }
 
 .container-home {
@@ -30,26 +30,55 @@ h1 {
   font-weight: 700 !important;
   /* font-style: normal; */
   text-align: left;
-  color: #3a3a3a;
+  color: #d1cdcd;
 }
 
 .home-text {
-  font-size: 1.5em !important;
+  font-size: 1.3em !important;
   text-align: left !important;
   font-family: Georgia, Times, Times New Roman, serif;
-  color: #3a3a3a;
+  color: #d1cdcd;
 }
 
 /* Nav */
 nav {
-  width: 100vw;
-  background-color: #E99F4C;
+  position: fixed;  /* Fixes the navigation to the top */
+  top: 0;  /* Ensures it stays at the top */
+  width: 100%;  /* Makes sure it spans the full width of the viewport */
+  /* background-color: #E99F4C;  Uncomment and set the background color */
   opacity: 70%;
-  border-bottom: #DE5499 solid 3px;
+  z-index: 1000;  /* Keeps the nav on top of other elements */
   font-family: Georgia, 'Times New Roman', Times, serif;
-  /* font-size: 1.4em; */
   display: flex !important;
   justify-content: space-around !important;
+  padding: 10px 0;  /* Adjust padding as necessary */
+}
+
+.featured-projects-header {
+  text-align: left;
+  font-size: 1.5em;
+  margin: 40px 0 20px; /* Adjust the top and bottom margins as needed */
+}
+
+.header-text {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit the color from parent element */
+}
+
+.header-text img {
+  margin-right: 8px; /* Adjust as needed */
+}
+
+.nav-link {
+  padding: 0.8rem !important;
+  color: #d1cdcd;
+}
+
+.nav-link:hover {
+  color: #d1cdcd; /* This ensures the color stays the same on hover */
+  opacity: 0.7; /* Optional: if you still want some visual change, like reducing opacity */
 }
 
 .my-nav {
@@ -65,42 +94,40 @@ nav {
 }
 
 .title-nav {
-  color: #3a3a3a;
+  color: #d1cdcd;
 }
 
 /* header */
-
 .header-text {
   font-family: "Playfair Display", serif;
   font-size: 1.2em !important;
-  color: #3a3a3a;
+  color: #e32652;
   font-weight: 600 !important;
   /* text-shadow: 1px 1px #E99F4C; */
   display: flex;
-  padding-left:20px;
+  padding-left: 20px;
   text-decoration: none;
   /* margin-right: 200px !important; */
 }
-.header-background {
+/* .header-background {
   padding-top: 90px;
-  background-color:#E99F4C;
+  background-color: #E99F4C;
   border-bottom: #DE5499 solid 4px;
-}
+} */
 
 /* Resume */
 .resume-container {
   padding-bottom: 150px;
 }
 
-/* Headings  */
-
+/* Headings */
 .heading-font {
   font-family: "Playfair Display", serif;
   font-size: 4em !important;
   width: 50%;
   text-align: center;
   padding-top: 70px;
-  color: #3a3a3a;
+  color: #d1cdcd;
   font-weight: 600 !important;
 }
 
@@ -151,7 +178,6 @@ nav {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
 .gallery-cards {
   padding-bottom: 100px;
 }
@@ -172,7 +198,6 @@ nav {
   padding-top: 100px;
 }
 
-
 /* footer */
 .footer {
   display: flex;
@@ -182,9 +207,8 @@ nav {
   bottom: 0;
 }
 
-
 .footer a {
-  color: grey;
+  color: #d1cdcd;
   text-decoration: none;
   font-size: 1em;
   padding-right: 8px;
@@ -193,7 +217,7 @@ nav {
 
 .align-right {
   margin-left: auto;
-  color: grey;
+  color: #d1cdcd;
   font-size: 1em;
   /* opacity: 0.8; */
 }
@@ -218,13 +242,13 @@ nav {
   padding-right: 20px;
 }
 
-.skills-icon {
+/* .skills-icon {
   padding-left: 30px;
   padding-right: 30px;
   text-decoration: none;
   font-size: 4em;
   color: #3a3a3a;
-  text-shadow:3px 6px #E99F4C;
+  text-shadow: 3px 6px #E99F4C;
   padding-bottom: 100px;
   padding-top: 50px;
 }
@@ -234,7 +258,7 @@ nav {
   color: #3a3a3a !important;
   padding-top: 20px !important;
   font-family: Georgia, Times, Times New Roman, serif;
-}
+} */
 /* .skills-icon:hover + .skill-text {
   display: block;
 } */
@@ -268,12 +292,26 @@ form {
   padding: 50px;
 }
 
-
 .button-div {
   display: flex;
   justify-content: center;
 }
 
+.card-background {
+  background-color: #d1cdcd;
+  color: #181818;
+  border-radius: 8px;
+  width: 100%; /* Add this line */
+}
+
+
+.card-title {
+  color: #181818; /* Ensure title text is visible on black background */
+}
+
+.card-text {
+  color: #181818; /* Ensure paragraph text is visible on black background */
+}
 
 @media only screen and (max-width: 1200px) {
   .welcome-font {
@@ -281,7 +319,7 @@ form {
   }
 
   .home-text {
-    font-size: 1.4em !important;
+    font-size: 1.1em !important;
   }
 
   .container-home {
@@ -300,7 +338,6 @@ form {
 }
 
 @media only screen and (max-width: 991px) {
-
   .photo-div {
     display: flex;
     justify-content: center;
@@ -322,7 +359,7 @@ form {
   }
 
   .home-text {
-    font-size: 1.3em !important;
+    font-size: 1em !important;
     text-align: center !important;
   }
 
@@ -403,7 +440,7 @@ form {
   }
 
   .home-text {
-    font-size: 1.2em !important;
+    font-size: 0.9em !important;
   }
 
   .container-home {
@@ -436,9 +473,10 @@ form {
   .heading-font {
     font-size: 2.4em !important;
   }
+
   .header-text {
-  font-size: 1em !important;
-}
+    font-size: 1em !important;
+  }
 }
 
 @media only screen and (max-width: 350px) {
@@ -497,9 +535,11 @@ form {
     font-size: 16px !important;
     padding: 2px !important;
   }
+
   .header-text {
     font-size: 0.7em !important;
   }
+
   .skills-icon {
     font-size: 2.8em;
   }
@@ -507,7 +547,7 @@ form {
 
 @media only screen and (max-width: 270px) {
   .home-text {
-    font-size: 1.1em !important;
+    font-size: 0.8em !important;
   }
 
   .heading-font {

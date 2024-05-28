@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function MyHeader() {
   return (
     <>
-    <Navbar expand="lg" className="my-nav fixed-top">
+    <Navbar expand="lg" className="my-nav">
       <Container fluid>
         <Link to='https://egleston.dev' className='header-text'>egleston.dev</Link>
         {/* <p className='header-text'>Sarah Egleston</p> */}
