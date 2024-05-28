@@ -12,13 +12,9 @@ function Home() {
                 <div className='container-home'>
                     <div className='row py-5 px-2 w-100'>
                         <div className='col-lg-7 col-sm-12'>
-                            <h1 className='welcome-font py-4'>HELLO!</h1>
-                            <p className='home-text'>I'm Sarah, a Front End Web & RPA (Robotic Process Automation) Developer  based in Bedfordshire, UK. </p>
-                            <p className='home-text'>Fuelled by my new found interest and eager to expand my skill set, I recently completed a
-                                certificate in Front End Web
-                                Development with EdX, achieving a final score of 100%. Currently, I'm undertaking
-                                online courses to further enhance my front-end development skills and pave the way
-                                towards my goal of becoming a full-stack developer.</p>
+                            <h1 className='welcome-font py-3'>Hi, I'm Sarah.</h1>
+                            <p className='home-text'>Welcome to my portfolio. I'm a multifaceted developer based in Bedfordshire, UK, with a rich background in veterinary nursing and pet insurance operations. Transitioning into the tech field, I have harnessed my skills in decision-making, critical thinking, and teamwork to excel as an Automation Developer and Systems Analyst Programmer. I recently completed a comprehensive web development bootcamp with a perfect score, demonstrating my dedication and versatility in software development.</p>
+                            <p className='home-text'>Fueled by my newfound passion for software development, I am eager to continue growing and refining my skills. Please explore my portfolio to see my work, and feel free to get in touch. I'm excited about the opportunity to contribute to innovative projects and connect with like-minded professionals.</p>
                         </div>
                         <div className='col-lg-5 col-sm-12 p-5 photo-div'>
                             {/* image source using imported photo */}
