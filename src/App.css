@@ -78,6 +78,7 @@ nav {
   /* text-shadow: 1px 1px #E99F4C; */
   display: flex;
   padding-left:20px;
+  text-decoration: none;
   /* margin-right: 200px !important; */
 }
 .header-background {
@@ -109,7 +110,7 @@ nav {
   background: #DE5499 !important;
   border-radius: 10px;
   font-weight: 800;
-  box-shadow: 3px 3px 0px 0px #E99F4C !important;
+  /* box-shadow: 3px 3px 0px 0px #E99F4C !important; */
   border: black !important;
   margin: 10px;
 }
@@ -117,7 +118,7 @@ nav {
 .project-card {
   outline: none;
   border: 2px solid #264143 !important;
-  box-shadow: 3px 4px 0px 1px #E99F4C !important;
+  /* box-shadow: 3px 4px 0px 1px #E99F4C !important; */
   width: 290px;
   padding: 15px;
   border-radius: 4px;
@@ -127,7 +128,7 @@ nav {
 }
 
 .project-card:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.01); */
 }
 
 .page-button {
@@ -159,7 +160,7 @@ nav {
 .details-card {
   outline: none;
   border: 2px solid #264143 !important;
-  box-shadow: 3px 4px 0px 1px #E99F4C !important;
+  /* box-shadow: 3px 4px 0px 1px #E99F4C !important; */
   padding: 15px;
   border-radius: 4px;
   font-size: 25px !important;
@@ -183,18 +184,18 @@ nav {
 
 
 .footer a {
-  color: #DE5499;
+  color: grey;
   text-decoration: none;
-  font-size: 1.8em;
-  padding-right: 6px;
+  font-size: 1em;
+  padding-right: 8px;
   opacity: 0.8;
 }
 
 .align-right {
   margin-left: auto;
-  color: #DE5499;
-  font-size: 1.2em;
-  opacity: 0.8;
+  color: grey;
+  font-size: 1em;
+  /* opacity: 0.8; */
 }
 
 .footer a:hover {

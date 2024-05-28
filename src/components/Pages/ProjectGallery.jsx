@@ -20,7 +20,7 @@ function ProjectGallery() {
       <div className='container text-center pb-5 '>
          <div className='row'>
             <div className='col d-flex justify-content-around'>
-               <h1 className='heading-font m-5'>Portfolio Gallery</h1>
+               <h1 className='heading-font m-5'>Portfolio</h1>
             </div>
          </div>
          <div className="row justify-content-center gallery-cards">

@@ -9,7 +9,8 @@ function MyHeader() {
     <>
     <Navbar expand="lg" className="my-nav fixed-top">
       <Container fluid>
-        <p className='header-text'>Sarah Egleston</p>
+        <Link to='https://egleston.dev' className='header-text'>egleston.dev</Link>
+        {/* <p className='header-text'>Sarah Egleston</p> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">

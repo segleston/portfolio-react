@@ -14,10 +14,9 @@ const Contact = () => {
                     <a href='https://www.linkedin.com/in/sarah-egleston/' target='blank'><i className="link fa-brands fa-linkedin"></i></a>
                     <a href='https://github.com/segleston/' target='blank'><i className="link fa-brands fa-github"></i></a>
                 </div>
-                <div className="container">
+                {/* <div className="container">
                     <div className='row align-center justify-content-center'>
                         <div className='form-div'>
-                            {/* Form with name, email, message. Will need future functionality */}
                             <Form className='form-area'>
                                 <Form.Group className='p-1'>
                                     <Form.Label>Enter your full name:</Form.Label>
@@ -41,7 +40,7 @@ const Contact = () => {
                             </Form>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )
