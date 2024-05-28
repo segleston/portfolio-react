@@ -58,6 +58,7 @@ nav {
   text-align: left;
   font-size: 1.5em;
   margin: 40px 0 20px; /* Adjust the top and bottom margins as needed */
+  color: #d1cdcd;
 }
 
 .header-text {
@@ -69,6 +70,15 @@ nav {
 
 .header-text img {
   margin-right: 8px; /* Adjust as needed */
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.photo-card {
+  padding: 0 !important;
 }
 
 .nav-link {

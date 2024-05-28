@@ -31,7 +31,7 @@ function Home() {
                 {/* Cards Section */}
                 <Container className='container-background'>
                     <div className='featured-projects-header'>
-                        ------------Featured Projects------------
+                        Featured Projects
                     </div>
                     <Link to={`/project/2`}>
                     <Row className="my-5 card-background">
@@ -42,15 +42,15 @@ function Home() {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg={4} sm={12}>
-                            <img src={CardImage1} className='img-fluid' alt='Card Image 1' />
+                        <Col lg={4} sm={12} className='photo-card'>
+                            <img src={CardImage1} className='img-fluid card-image' alt='Card Image 1' />
                         </Col>
                     </Row>
                     </Link>
                     <Link to={`/project/2`}>
                     <Row className="my-5 card-background">
-                        <Col lg={4} sm={12}>
-                            <img src={CardImage2} className='img-fluid' alt='Card Image 2' />
+                        <Col lg={4} sm={12} className='photo-card'>
+                            <img src={CardImage2} className='img-fluid card-image' alt='Card Image 2' />
                         </Col>
                         <Col lg={8} sm={12} className="d-flex align-items-center">
                             <div>
@@ -68,8 +68,8 @@ function Home() {
                                 <p className='card-text'>Card content goes here. This card has the image on the right and text on the left.</p>
                             </div>
                         </Col>
-                        <Col lg={4} sm={12}>
-                            <img src={CardImage3} className='img-fluid' alt='Card Image 3' />
+                        <Col lg={4} sm={12} className='photo-card'>
+                            <img src={CardImage3} className='img-fluid card-image' alt='Card Image 3' />
                         </Col>
                     </Row>
                     </Link>
