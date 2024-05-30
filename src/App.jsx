@@ -3,10 +3,12 @@ import MyHeader from './components/Header';
 import MyFooter from './components/Footer'
 import { Contact, Custom404, Home, ProjectGallery, ProjectDetails, Resume } from './components/Pages';
 import './App.css'
+import {NextUIProvider} from "@nextui-org/react";
 
 function App() {
 
   return (
+    <NextUIProvider>
     <Router >
       <MyHeader />
       <Routes>
@@ -19,6 +21,7 @@ function App() {
       </Routes>
       <MyFooter />
     </Router>
+    </NextUIProvider>
   )
 }
 

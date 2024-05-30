@@ -1,12 +1,14 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import { Link } from "react-router-dom";
 import Col from 'react-bootstrap/Col';
+import { Link } from 'react-router-dom';
 import Headshot from '../../assets/images/photo/ir.png';  // Ensure this path is correct
 import CardImage1 from '../../assets/images/photo/devopps2.png';  // Add your card images
 import CardImage2 from '../../assets/images/photo/devopps2.png';
 import CardImage3 from '../../assets/images/photo/devopps2.png';
+import {Button} from "@nextui-org/react";
+
 
 // Function for home page
 function Home() {
@@ -34,50 +36,51 @@ function Home() {
                         Featured Projects
                     </div>
                     <Link to={`/project/2`}>
-                    <Row className="my-5 card-background">
-                        <Col lg={8} sm={12} className="d-flex align-items-center">
-                            <div>
-                                <h2 className='card-title'>devOpps</h2>
-                                <p className='card-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nisi, totam, magni tenetur corrupti similique maiores expedita reiciendis aut enim illum dignissimos iure ipsam maxime quasi accusamus dolorem quam modi?
-                                </p>
-                            </div>
-                        </Col>
-                        <Col lg={4} sm={12} className='photo-card'>
-                            <img src={CardImage1} className='img-fluid card-image' alt='Card Image 1' />
-                        </Col>
-                    </Row>
+                        <Row className="my-5 card-background">
+                            <Col lg={8} sm={12} className="d-flex align-items-center justify-content-center">
+                                <div className='card-content'>
+                                    <h2 className='card-title'>devOpps</h2>
+                                    <p className='card-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nisi, totam, magni tenetur corrupti similique maiores expedita reiciendis aut enim illum dignissimos iure ipsam maxime quasi accusamus dolorem quam modi?</p>
+                                </div>
+                            </Col>
+                            <Col lg={4} sm={12} className='photo-card'>
+                                <img src={CardImage1} className='img-fluid card-image' alt='Card Image 1' />
+                            </Col>
+                        </Row>
                     </Link>
                     <Link to={`/project/2`}>
-                    <Row className="my-5 card-background">
-                        <Col lg={4} sm={12} className='photo-card'>
-                            <img src={CardImage2} className='img-fluid card-image' alt='Card Image 2' />
-                        </Col>
-                        <Col lg={8} sm={12} className="d-flex align-items-center">
-                            <div>
-                                <h2 className='card-title'>Card Title 2</h2>
-                                <p className='card-text'>Card content goes here. This card has the image on the left and text on the right.</p>
-                            </div>
-                        </Col>
-                    </Row>
+                        <Row className="my-5 card-background">
+                            <Col lg={4} sm={12} className='photo-card'>
+                                <img src={CardImage2} className='img-fluid card-image' alt='Card Image 2' />
+                            </Col>
+                            <Col lg={8} sm={12} className="d-flex align-items-center justify-content-center">
+                                <div className='card-content'>
+                                    <h2 className='card-title'>Card Title 2</h2>
+                                    <p className='card-text'>Card content goes here. This card has the image on the left and text on the right.</p>
+                                </div>
+                            </Col>
+                        </Row>
                     </Link>
                     <Link to={`/project/2`}>
-                    <Row className="my-5 card-background">
-                        <Col lg={8} sm={12} className="d-flex align-items-center">
-                            <div>
-                                <h2 className='card-title'>Card Title 3</h2>
-                                <p className='card-text'>Card content goes here. This card has the image on the right and text on the left.</p>
-                            </div>
-                        </Col>
-                        <Col lg={4} sm={12} className='photo-card'>
-                            <img src={CardImage3} className='img-fluid card-image' alt='Card Image 3' />
-                        </Col>
-                    </Row>
+                        <Row className="my-5 card-background">
+                            <Col lg={8} sm={12} className="d-flex align-items-center justify-content-center">
+                                <div className='card-content'>
+                                    <h2 className='card-title'>Card Title 3</h2>
+                                    <p className='card-text'>Card content goes here. This card has the image on the right and text on the left.</p>
+                                </div>
+                            </Col>
+                            <Col lg={4} sm={12} className='photo-card'>
+                                <img src={CardImage3} className='img-fluid card-image' alt='Card Image 3' />
+                            </Col>
+                        </Row>
                     </Link>
                 </Container>
 
-                <button>
-                    See More
-                </button>
+                <div className="flex gap-4 items-center">  
+      <Button color="danger" variant="bordered" startContent='arrow.png'>
+        See More
+      </Button>
+    </div>
             </div>
         </>
     );
