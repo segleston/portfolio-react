@@ -7,7 +7,8 @@ import Headshot from '../../assets/images/photo/ir.png';  // Ensure this path is
 import CardImage1 from '../../assets/images/photo/devopps2.png';  // Add your card images
 import CardImage2 from '../../assets/images/photo/devopps2.png';
 import CardImage3 from '../../assets/images/photo/devopps2.png';
-import {Button} from "@nextui-org/react";
+import Button from 'react-bootstrap/Button';
+
 
 
 // Function for home page
@@ -75,12 +76,11 @@ function Home() {
                         </Row>
                     </Link>
                 </Container>
-
-                <div className="flex gap-4 items-center">  
-      <Button color="danger" variant="bordered" startContent='arrow.png'>
-        See More
-      </Button>
-    </div>
+                <div className="d-flex justify-content-center my-4">
+                <Button variant="primary" size="lg" className='more-button'>
+                    See More   <img src='/arrow.png'></img>
+                </Button>
+                </div>
             </div>
         </>
     );
