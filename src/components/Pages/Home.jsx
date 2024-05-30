@@ -5,9 +5,8 @@ import Col from 'react-bootstrap/Col';
 import { Link } from 'react-router-dom';
 import Headshot from '../../assets/images/photo/ir.png';  // Ensure this path is correct
 import CardImage1 from '../../assets/images/photo/devopps2.png';  // Add your card images
-import CardImage2 from '../../assets/images/photo/devopps2.png';
-import CardImage3 from '../../assets/images/photo/devopps2.png';
-import Button from 'react-bootstrap/Button';
+import CardImage2 from '../../assets/images/photo/Movie2.png';
+import CardImage3 from '../../assets/images/photo/weather2.png';
 
 
 
@@ -19,7 +18,7 @@ function Home() {
             <div className='container-fluid p-0'>
                 <div className='container-home'>
                     <div className='row py-5 px-2 w-100'>
-                        <div className='col-lg-7 col-sm-12'>
+                        <div className='col-lg-7 col-sm-12 text-area'>
                             <h1 className='welcome-font py-3'>Hi, I'm Sarah.</h1>
                             <p className='home-text'>Welcome to my portfolio. I'm a multifaceted developer based in Bedfordshire, UK, with a background in veterinary nursing and pet insurance operations. Transitioning into the tech field, I have harnessed my skills in decision-making, critical thinking, and teamwork to excel as an Automation Developer and Systems Analyst Programmer. I recently completed a comprehensive web development bootcamp, demonstrating my dedication and versatility in software development.</p>
                             <p className='home-text'>Fueled by my newfound passion for software development, I am eager to continue growing and refining my skills. Please explore my portfolio to see my work, and feel free to get in touch. I'm excited about the opportunity to contribute to innovative projects and connect with like-minded professionals.</p>
@@ -49,24 +48,24 @@ function Home() {
                             </Col>
                         </Row>
                     </Link>
-                    <Link to={`/project/2`}>
+                    <Link to={`/project/1`}>
                         <Row className="my-5 card-background">
                             <Col lg={4} sm={12} className='photo-card'>
                                 <img src={CardImage2} className='img-fluid card-image' alt='Card Image 2' />
                             </Col>
                             <Col lg={8} sm={12} className="d-flex align-items-center justify-content-center">
                                 <div className='card-content'>
-                                    <h2 className='card-title'>Card Title 2</h2>
+                                    <h2 className='card-title'>Movie Blast from the Past</h2>
                                     <p className='card-text'>Card content goes here. This card has the image on the left and text on the right.</p>
                                 </div>
                             </Col>
                         </Row>
                     </Link>
-                    <Link to={`/project/2`}>
+                    <Link to={`/project/3`}>
                         <Row className="my-5 card-background">
                             <Col lg={8} sm={12} className="d-flex align-items-center justify-content-center">
                                 <div className='card-content'>
-                                    <h2 className='card-title'>Card Title 3</h2>
+                                    <h2 className='card-title'>Weather Dashboard</h2>
                                     <p className='card-text'>Card content goes here. This card has the image on the right and text on the left.</p>
                                 </div>
                             </Col>
@@ -77,9 +76,8 @@ function Home() {
                     </Link>
                 </Container>
                 <div className="d-flex justify-content-center my-4">
-                <Button variant="primary" size="lg" className='more-button'>
-                    See More   <img src='/arrow.png'></img>
-                </Button>
+                <Link to="/portfolio"> <button>See More</button> </Link>
+
                 </div>
             </div>
         </>
