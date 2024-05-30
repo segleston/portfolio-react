@@ -10,6 +10,7 @@ import CardImage3 from '../../assets/images/photo/weather2.png';
 
 
 
+
 // Function for home page
 function Home() {
     return (
@@ -21,7 +22,7 @@ function Home() {
                         <div className='col-lg-7 col-sm-12 text-area'>
                             <h1 className='welcome-font py-3'>Hi, I'm Sarah.</h1>
                             <p className='home-text'>Welcome to my portfolio. I'm a multifaceted developer based in Bedfordshire, UK, with a background in veterinary nursing and pet insurance operations. Transitioning into the tech field, I have harnessed my skills in decision-making, critical thinking, and teamwork to excel as an Automation Developer and Systems Analyst Programmer. I recently completed a comprehensive web development bootcamp, demonstrating my dedication and versatility in software development.</p>
-                            <p className='home-text'>Fueled by my newfound passion for software development, I am eager to continue growing and refining my skills. Please explore my portfolio to see my work, and feel free to get in touch. I'm excited about the opportunity to contribute to innovative projects and connect with like-minded professionals.</p>
+                            <p className='home-text'>Fueled by my newfound passion for software development, I am eager to continue growing and refining my skills. Please explore my portfolio to see my work, and feel free to <Link to='/contact'>get in touch.</Link> I'm excited about the opportunity to contribute to innovative projects and connect with like-minded professionals.</p>
                         </div>
                         <div className='col-lg-5 col-sm-12 p-5 photo-div'>
                             {/* Image source using imported photo */}

@@ -73,6 +73,10 @@ html {
   border-bottom: 2px solid #e32652; /* Adjust the width and color as needed */
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .home-text {
   font-size: 1.3em !important;
   text-align: left !important;
@@ -154,12 +158,111 @@ nav {
 
 .nav-link {
   padding: 0.8rem !important;
-  color: #d1cdcd;
+  color: #d1cdcd !important;
 }
 
 .nav-link:hover {
   color: #d1cdcd;
   opacity: 0.7;
+}
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+  height: 100px;
+  padding-top: 20px;
+  justify-content: space-around; /* Adjust spacing as needed */
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #fff;
+  border-radius: 50%;
+  margin: 20px; /* Adjust spacing between buttons */
+  width: 40px; /* Double the size */
+  height: 40px; /* Double the size */
+  font-size: 28px; /* Double the size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  text-decoration: none;
+  color: #181818 !important;
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px; /* Double the size */
+  background: #fff;
+  color: #fff;
+  padding: 15px; /* Increase padding */
+  border-radius: 8px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 10px; /* Double the size */
+  width: 10px; /* Double the size */
+  background: #fff;
+  bottom: -5px; /* Adjust position */
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -65px; /* Adjust position */
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -2px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.wrapper .email:hover,
+.wrapper .email:hover .tooltip,
+.wrapper .email:hover .tooltip::before {
+  background: #333;
+  color: #fff;
+}
+
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+  background: #0077b5;
+  color: #fff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #333;
+  color: #fff;
+}
+
+.wrapper .icon.email svg path {
+  fill: #ff0000 !important; /* Change to desired email icon color */
+}
+
+.wrapper .icon.linkedin svg path {
+  fill: #0077b5 !important; /* Change to desired LinkedIn icon color */
+}
+
+.wrapper .icon.github svg path {
+  fill: #000000 !important; /* Change to desired GitHub icon color */
 }
 
 .my-nav {
@@ -182,6 +285,7 @@ nav {
 .photo-card img {
   width: 100%;
   height: 100%;
+  opacity: 70%;
   object-fit: cover;
   border-radius: 8px; /* Match the border-radius of the card */
 }
