@@ -45,7 +45,33 @@ html {
   border-bottom: 2px solid #e32652; /* Adjust the width and color as needed */
 }
 
+.border-left {
+  position: relative;
+  padding-left: 15px; /* Add some padding to move the content away from the border */
+}
 
+.border-left:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 35%; /* Start the border 35% from the top */
+  height: 30%; /* The border will cover 30% of the height */
+  width: 3px; /* Adjust the width as needed */
+  background-color: #e32652; /* Adjust the color as needed */
+}
+
+.border-right {
+  position: relative;
+}
+
+.border-right::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  border-bottom: 2px solid #e32652; /* Adjust the width and color as needed */
+}
 
 .home-text {
   font-size: 1.3em !important;
@@ -68,7 +94,7 @@ nav {
 }
 
 .featured-projects-header {
-  text-align: left;
+  text-align: center;
   font-size: 1.5em;
   margin: 40px 0 20px;
   color: #d1cdcd;
@@ -299,7 +325,7 @@ button {
   height: 50px;
   margin: 5px;
   width: 120px;
-  background: #333;
+  background: #181818;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -314,11 +340,11 @@ button {
   -webkit-transition: 500ms;
   transition: 500ms;
   border-radius: 5px;
-  background: linear-gradient(145deg, #2e2d2d, #212121);
+  /* background: linear-gradient(145deg, #2e2d2d, #212121);
   -webkit-box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
     inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
   box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
-    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121; */
 }
 
 button:hover {
@@ -414,6 +440,10 @@ form {
   color: #181818;
   /* border-radius: 8px; */
   width: 90%; /* Add this line */
+}
+
+.button-text {
+  text-decoration: none;
 }
 
 
