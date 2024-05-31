@@ -15,7 +15,7 @@
         "description": "A comprehensive job website for tech employees and recruiters/employers.",
         "image": "images/homepage.png",
         "imageAltText": "Screenshot of devOpps homepage",
-        "tech": ["React", "Node.js", "Tailwind CSS"],
+        "tech": ["React", "JavaScript", "Tailwind CSS"],
         "github": "https://github.com/segleston/DevOpps",
         "deployedURL": "https://devopps.app/"
     },
@@ -55,7 +55,7 @@
         "description": "A basic bootstrap portfolio, to showcase recent projects.",
         "image": "images/bootstrap.png",
         "imageAltText": "Screenshot of Bootstrap Portfolio",
-        "tech": ["HTML5", "Bootstrap"],
+        "tech": ["HTML5", "Bootstrap CSS"],
         "github": "https://github.com/segleston/Bootstrap-Portfolio",
         "deployedURL": "https://segleston.github.io/Bootstrap-Portfolio/"
     }

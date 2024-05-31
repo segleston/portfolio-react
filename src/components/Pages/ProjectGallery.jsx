@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import projects from '../../projects.json';
 import ProjectCard from '../Project';
-import { useInView } from 'react-intersection-observer';
 
 const fadeInAnimationVariants = {
    hidden: { opacity: 0, y: 20 },
@@ -10,15 +9,16 @@ const fadeInAnimationVariants = {
 };
 
 function ProjectGallery() {
-   const [ref, inView] = useInView({ triggerOnce: true });
+   useEffect(() => {
+      window.scrollTo(0, 0); // Scrolls to the top of the page on component mount
+   }, []); // Empty dependency array to run the effect only once when the component mounts
 
    return (
       <section id="projects" className="primary-green">
          <div className="container py-5 px-5 px-lg-0">
             <motion.h1
-               ref={ref}
                initial={{ opacity: 0, y: 20 }}
-               animate={inView ? "visible" : "hidden"}
+               animate={{ opacity: 1, y: 0 }}
                transition={{ delay: 0.25 }}
                className="mb-4 display-4 text-highlight"
             >
@@ -31,7 +31,7 @@ function ProjectGallery() {
                      key={project.id}
                      variants={fadeInAnimationVariants}
                      initial="hidden"
-                     animate={inView ? "visible" : "hidden"}
+                     animate="visible"
                      custom={index}
                   >
                      <ProjectCard

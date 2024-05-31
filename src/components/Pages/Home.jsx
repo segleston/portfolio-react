@@ -93,8 +93,6 @@ function Home() {
             </Col>
           </Row>
 
-          {/* Add more rows as needed */}
-
         </Container>
 
         <div className="d-flex justify-content-center my-5 py-5 border-right">

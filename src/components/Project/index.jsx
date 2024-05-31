@@ -16,7 +16,7 @@ export default function ProjectCard({ title, description, image, altText, techOn
 
     return (
         <motion.div ref={ref} initial="hidden" animate={inView ? "visible" : "hidden"} variants={fadeInAnimationVariants}>
-            <Card className="h-100">
+            <Card className="h-100 projects-card">
                 <a href={deployedURL} target="_blank" rel="noopener noreferrer">
                     <Card.Img variant="top" src={image} alt={altText} />
                 </a>
