@@ -324,7 +324,7 @@ nav {
   font-family: "Playfair Display", serif;
   font-size: 4em !important;
   width: 50%;
-  text-align: center;
+  text-align: left;
   padding-top: 70px;
   color: #d1cdcd;
   font-weight: 600 !important;
@@ -398,12 +398,13 @@ nav {
 }
 
 /* footer */
+/* footer */
 .footer {
-  display: flex;
-  justify-content: space-between;
+  background-color: #181818; 
   padding: 0 50px;
   position: relative;
   bottom: 0;
+  width: 100%;
 }
 
 .footer a {
@@ -414,16 +415,16 @@ nav {
   opacity: 0.8;
 }
 
+.footer a:hover {
+  opacity: 0.7;
+}
+
 .align-right {
   margin-left: auto;
   color: #d1cdcd;
   font-size: 1em;
-  /* opacity: 0.8; */
 }
 
-.footer a:hover {
-  opacity: 0.7;
-}
 
 button {
   height: 50px;
@@ -557,6 +558,37 @@ form {
 
 .card-text {
   color: #181818; /* Ensure paragraph text is visible on black background */
+}
+
+
+
+.text-highlight {
+  color: #181818;
+}
+
+/* .card-font {
+  font-family: 'Open Sans', sans-serif;
+} */
+
+.card-image {
+  object-fit: cover;
+}
+
+
+.card-button:hover {
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+.tech-button {
+  background-color: #e32652 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card-font {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 1200px) {

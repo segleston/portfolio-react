@@ -2,50 +2,61 @@
     {
         "id": 1,
         "title": "Birthday Blast from the Past",
-        "description": "A collaborative web application that combines personal information with movie data to create a nostalgic journey through time, using HTML5, CSS3, two API's and jQuery.",
+        "description": "A fun web application that combines personal information with movie data.",
         "image": "images/birthday.png",
+        "imageAltText": "Screenshot of Birthday Blast from the Past",
+        "tech": ["HTML5", "CSS3", "jQuery"],
         "github": "https://github.com/segleston/birthday-blast-from-the-past/",
-        "deployed": "https://segleston.github.io/birthday-blast-from-the-past/"
+        "deployedURL": "https://segleston.github.io/birthday-blast-from-the-past/"
     },
     {
         "id": 2,
         "title": "devOpps",
-        "description": "devOpps offers a comprehensive platform for all your tech hiring needs, making job searches and candidate sourcing hassle-free.",
+        "description": "A comprehensive job website for tech employees and recruiters/employers.",
         "image": "images/homepage.png",
+        "imageAltText": "Screenshot of devOpps homepage",
+        "tech": ["React", "Node.js", "Tailwind CSS"],
         "github": "https://github.com/segleston/DevOpps",
-        "deployed": "https://devopps.app/"
+        "deployedURL": "https://devopps.app/"
     },
     {
         "id": 3,
         "title": "Weather Dashboard",
-        "description": "Weather dashboard showing the current days weather for the seached location, and 5 day forecast, using HTML5, CSS3, JavaScript and a Weather API.",
+        "description": "Weather dashboard showing the current days weather for the searched location.",
         "image": "images/Weather.png",
+        "imageAltText": "Screenshot of Weather Dashboard",
+        "tech": ["HTML5", "CSS3", "JavaScript"],
         "github": "https://github.com/segleston/weather-dashboard/",
-        "deployed": "https://segleston.github.io/weather-dashboard/"
+        "deployedURL": "https://segleston.github.io/weather-dashboard/"
     },
     {
         "id": 4,
         "title": "Password Generator",
-        "description": "Password generator created using HTML5, CSS3 and JavaScript",
+        "description": "A password generator requiring user input and using local storage.",
         "image": "images/password.png",
+        "imageAltText": "Screenshot of Password Generator",
+        "tech": ["HTML5", "CSS3", "JavaScript"],
         "github": "https://github.com/segleston/password-generator",
-        "deployed": "https://segleston.github.io/password-generator/"
+        "deployedURL": "https://segleston.github.io/password-generator/"
     },
     {
         "id": 5,
         "title": "Work Day Scheduler",
-        "description": "A calendar application that allows a user to save events for each hour of the day, using HTML5, CSS3 and JavaScript",
+        "description": "A calendar application that allows a user to save events for each hour of the day.",
         "image": "images/WeekdayScheduler.png",
+        "imageAltText": "Screenshot of Work Day Scheduler",
+        "tech": ["HTML5", "CSS3", "JavaScript"],
         "github": "https://github.com/segleston/work-day-scheduler",
-        "deployed": "https://segleston.github.io/work-day-scheduler/"
+        "deployedURL": "https://segleston.github.io/work-day-scheduler/"
     },
     {
         "id": 6,
         "title": "Bootstrap Portfolio",
-        "description": "Basic portfolio using HTML5 and Bootstrap CSS.",
+        "description": "A basic bootstrap portfolio, to showcase recent projects.",
         "image": "images/bootstrap.png",
+        "imageAltText": "Screenshot of Bootstrap Portfolio",
+        "tech": ["HTML5", "Bootstrap"],
         "github": "https://github.com/segleston/Bootstrap-Portfolio",
-        "deployed": "https://segleston.github.io/Bootstrap-Portfolio/"
+        "deployedURL": "https://segleston.github.io/Bootstrap-Portfolio/"
     }
 ]
-
