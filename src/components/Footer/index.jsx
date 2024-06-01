@@ -6,7 +6,7 @@ export default function MyFooter() {
   };
 
   return (
-    <footer className="footer mt-5 py-5 fixed-bottom">
+    <footer className="footer mt-5 py-5 fixed-bottom border-top">
     <div className="container">
         <div className="row">
   

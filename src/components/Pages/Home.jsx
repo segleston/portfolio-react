@@ -30,7 +30,7 @@ function Home() {
               <motion.div ref={ref1} initial="hidden" animate={inView1 ? "visible" : "hidden"} variants={fadeInAnimationVariants}>
                 <h1 className='welcome-font py-3'>Hi, I'm Sarah.</h1>
                 <p className='home-text'>Welcome to my portfolio. I'm a multifaceted developer based in Bedfordshire, UK, with a background in veterinary nursing and pet insurance operations. Transitioning into the tech field, I have harnessed my skills in decision-making, critical thinking, and teamwork to excel as an Automation Developer and Systems Analyst Programmer. I recently completed a comprehensive web development bootcamp, demonstrating my dedication and versatility in software development.</p>
-                <p className='home-text'>Fueled by my newfound passion for software development, I am eager to continue growing and refining my skills. Please explore my portfolio to see my work, and feel free to <Link to='/contact'>get in touch.</Link> I'm excited about the opportunity to contribute to innovative projects and connect with like-minded professionals.</p>
+                <p className='home-text'>Fueled by my newfound passion for software development, I am eager to continue growing and refining my skills. Please explore my portfolio to see my work, and feel free to get in touch. I'm excited about the opportunity to contribute to innovative projects and connect with like-minded professionals.</p>
               </motion.div>
             </Col>
             <Col lg={5} sm={12} className='p-5 photo-div'>
@@ -41,7 +41,7 @@ function Home() {
           </div>
         </div>
 
-        <Container className='container-background border-left'>
+        <Container className='container-background '>
           <div className='featured-projects-header'>
             Featured Projects
           </div>
@@ -56,6 +56,8 @@ function Home() {
                   <Link to="https://github.com/segleston/DevOpps" className='button-text'><button>Repository</button></Link>
                   <div className="technology mt-4">
                     <Badge bg="info" className="me-2 tech-button">JavaScript</Badge>
+                    <Badge bg="info" className="me-2 tech-button">React</Badge>
+                    <Badge bg="info" className="me-2 tech-button">Node.js</Badge>
                     <Badge bg="info" className="me-2 tech-button">CSS</Badge>
                     <Badge bg="info" className='tech-button'>HTML</Badge>
                   </div>
@@ -84,9 +86,10 @@ function Home() {
                   <Link to="https://segleston.github.io/birthday-blast-from-the-past/" className='button-text'><button>Application</button></Link>
                   <Link to="https://github.com/segleston/birthday-blast-from-the-past/" className='button-text'><button>Repository</button></Link>
                   <div className="technology mt-4">
-                    <Badge bg="info" className="me-2 tech-button">JavaScript</Badge>
+                    <Badge bg="info" className="me-2 tech-button">jQuery</Badge>
                     <Badge bg="info" className="me-2 tech-button">CSS</Badge>
-                    <Badge bg="info" className='tech-button'>HTML</Badge>
+                    <Badge bg="info" className='me-2 tech-button'>HTML</Badge>
+                    <Badge bg="info" className='tech-button'>API</Badge>
                   </div>
                 </div>
               </motion.div>
@@ -95,7 +98,7 @@ function Home() {
 
         </Container>
 
-        <div className="d-flex justify-content-center my-5 py-5 border-right">
+        <div className="d-flex justify-content-center my-5 py-5">
           <Link to="/portfolio" className='button-text'>
             <button>See More</button>
           </Link>

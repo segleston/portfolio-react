@@ -9,6 +9,8 @@
   min-height: 100vh;
   background-color: #181818;
   scroll-behavior: smooth;
+ font-family: "Playfair Display", serif !important;  
+
 }
 
 html {
@@ -157,7 +159,7 @@ nav {
 }
 
 .nav-link {
-  padding: 0.8rem !important;
+  padding: 1rem !important;
   color: #d1cdcd !important;
 }
 
@@ -165,6 +167,23 @@ nav {
   color: #d1cdcd;
   opacity: 0.7;
 }
+
+.border-top-right {
+  position: relative;
+}
+
+.border-top-right::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 25%;
+  height: 25%;
+  border-top: 3px solid #e32652;  /* Adjust the thickness and color as needed */
+  /* border-right: 3px solid #e32652; Adjust the thickness and color as needed */
+  box-sizing: border-box;
+}
+
 
 .wrapper {
   display: inline-flex;
@@ -373,8 +392,9 @@ nav {
   opacity: 0.9;
 }
 
-.card-font {
-  font-family: "Playfair Display", serif;
+.card-body, .card-content {
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+  font-weight: 400;
 }
 
 .gallery-cards {
@@ -405,6 +425,8 @@ nav {
   position: relative;
   bottom: 0;
   width: 100%;
+  border-top: 1px solid #e32652 !important; /* Adds a pink border above the footer */
+
 }
 
 .footer a {
@@ -485,59 +507,17 @@ button:active {
   padding-right: 20px;
 }
 
-/* .skills-icon {
-  padding-left: 30px;
-  padding-right: 30px;
-  text-decoration: none;
-  font-size: 4em;
-  color: #3a3a3a;
-  text-shadow: 3px 6px #E99F4C;
-  padding-bottom: 100px;
-  padding-top: 50px;
-}
-.skill-text {
-  display: none;
-  font-size: 1em !important;
-  color: #3a3a3a !important;
-  padding-top: 20px !important;
-  font-family: Georgia, Times, Times New Roman, serif;
-} */
-/* .skills-icon:hover + .skill-text {
-  display: block;
-} */
+
 
 .icon-text {
   text-align: center;
 }
-.form-div {
-  padding-bottom: 100px;
-}
+
 
 .projects-card {
   background-color: #d1cdcd;
 }
 
-.form_style {
-  outline: none;
-  border: 2px solid #264143 !important;
-  box-shadow: 3px 4px 0px 1px #E99F4C !important;
-  width: 100%;
-  padding: 12px 10px;
-  border-radius: 4px;
-  font-size: 15px;
-}
-
-form {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-  background-color: #EDDCD9;
-  border: 2px solid #264143;
-  border-radius: 20px;
-  box-shadow: 3px 4px 0px 1px #E99F4C !important;
-  padding: 50px;
-}
 
 .button-div {
   display: flex;
@@ -600,6 +580,53 @@ form {
   padding: 20px 25px;
   border-radius: 14px;
 }
+
+/* Contact */
+
+.projects-card, .contact-card {
+  background-color: #d1cdcd;
+  border-radius: 15px; /* Curved border */
+  padding: 20px; /* Add padding for better look */
+}
+
+.contact-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better appearance */
+}
+
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+textarea.form-control {
+  height: 150px; /* Larger for the message section */
+}
+
+.button-text button {
+  margin-top: 20px;
+}
+
+.custom-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+
+
+.social-card {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: #d1cdcd;
+  padding: 20px 25px;
+  border-radius: 14px;
+}
 .Btn {
   width: 45px;
   height: 45px;
@@ -646,12 +673,7 @@ form {
 .linkdin .BG {
   background: #0077b5;
 }
-.whatsapp .BG {
-  background: #075e54;
-}
-.discord .BG {
-  background: #7289da;
-}
+
 .Btn:hover .BG {
   transform: scale(1.5);
   /* transform-origin: bottom; */
@@ -692,9 +714,6 @@ form {
     width: 30rem !important;
   }
 
-  form {
-    width: 90%;
-  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -735,9 +754,7 @@ form {
     font-size: 1.2em;
   }
 
-  form {
-    width: 95% !important;
-  }
+
 }
 
 @media only screen and (max-width: 680px) {
@@ -848,9 +865,7 @@ form {
     font-size: 1em;
   }
 
-  form {
-    padding: 10px;
-  }
+
 
   .contact-links a {
     font-size: 1.5em;

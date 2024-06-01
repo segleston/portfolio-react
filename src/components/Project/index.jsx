@@ -8,7 +8,7 @@ import { useInView } from 'react-intersection-observer';
 
 const fadeInAnimationVariants = {
    hidden: { opacity: 0, y: 20 },
-   visible: { opacity: 1, y: 0, transition: { duration: 1 } },
+   visible: { opacity: 1, y: 0, transition: { duration: 1, delay: 0.25 } },
 };
 
 export default function ProjectCard({ title, description, image, altText, techOne, techTwo, techThree, deployedURL, repoLink }) {
@@ -21,7 +21,7 @@ export default function ProjectCard({ title, description, image, altText, techOn
                     <Card.Img variant="top" src={image} alt={altText} />
                 </a>
                 <Card.Body className="p-4">
-                    <Card.Title className="mb-3 text-highlight">{title}</Card.Title>
+                    <Card.Title className="mb-3 ">{title}</Card.Title>
                     <Card.Text>{description}</Card.Text>
                     <Link to={deployedURL} className='button-text'> <button>Application</button> </Link>
                     <Link to={repoLink} className='button-text'> <button>Repository</button> </Link>
