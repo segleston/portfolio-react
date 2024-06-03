@@ -179,7 +179,7 @@ nav {
   right: 20px;
   width: 25%;
   height: 25%;
-  border-top: 3px solid #e32652;  /* Adjust the thickness and color as needed */
+  border-top: 2px solid #e32652;  /* Adjust the thickness and color as needed */
   /* border-right: 3px solid #e32652; Adjust the thickness and color as needed */
   box-sizing: border-box;
 }
@@ -425,9 +425,20 @@ nav {
   position: relative;
   bottom: 0;
   width: 100%;
-  border-top: 1px solid #e32652 !important; /* Adds a pink border above the footer */
-
 }
+
+.footer::before {
+  content: '';
+  display: block;
+  width: 83.33%; /* 5/6 of the width (5/6 = 0.8333) */
+  height: 1px; /* Thickness of the border */
+  background-color: #e32652; /* Border color */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 
 .footer a {
   color: #d1cdcd;
