@@ -569,17 +569,7 @@ button:active {
   font-weight: 500 !important;
 }
 
-.social-card {
-  height: fit-content;
-  width: fit-content;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  background: rgb(255, 255, 255);
-  padding: 20px 25px;
-  border-radius: 14px;
-}
+
 
 /* Contact */
 
@@ -763,6 +753,9 @@ textarea.form-control {
     font-size: 1em !important;
     text-align: center !important;
   }
+  .touch-div {
+    text-align: left !important;
+  }
   .card-text {
     font-size: 1em
   }
@@ -851,6 +844,12 @@ textarea.form-control {
   .button-div {
     padding: 0 !important;
   }
+  .card-body {
+    padding: 0 !important;
+  }
+  .text-highlight {
+    padding: 0 !important;
+  }
 }
 
 @media only screen and (max-width: 430px) {
@@ -880,6 +879,20 @@ textarea.form-control {
     margin-bottom: 10px;
     margin-top: 10px;
   }
+  button {
+    height: 30px;
+    margin: 3px;
+    width: 100px;
+  }
+  .touch-div {
+    padding: 10px !important;
+  }
+  .get-in-touch {
+    padding: 10px !important;
+  }
+  .navbar-toggler-icon {
+    height: 85%;
+  }
 }
 
 @media only screen and (max-width: 370px) {
@@ -902,6 +915,11 @@ textarea.form-control {
 
   .header-text {
     font-size: 0.9em !important;
+  }
+  .social-card {
+    gap: 10px;
+  padding: 10px 10px;
+  border-radius: 10px;
   }
 }
 

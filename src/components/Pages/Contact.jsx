@@ -23,15 +23,15 @@ const ContactMe = () => {
                 Get In Touch
             </motion.h1> */}
             <div className="row">
-                <div className="col-lg-4 p-5">
+                <div className="col-lg-4 p-5 get-in-touch">
                     <motion.div
                         ref={ref}
                         initial="hidden"
                         animate={inView ? "visible" : "hidden"}
                         variants={fadeInAnimationVariants}
                     >
-                        <h1 className="display-4 text-highlight mb-4 px-4">Get in Touch</h1>
-                        <p className="home-text mb-4 p-4">
+                        <h1 className="display-4 text-highlight mb-4 px-4 welcome-font">Get in Touch</h1>
+                        <p className="home-text mb-4 p-4 touch-div">
                         Feel free to reach out through the form or via the links below.                        </p>
                         <div class="social-card m-4">
                             <a href="https://github.com/segleston" class="Btn github">
