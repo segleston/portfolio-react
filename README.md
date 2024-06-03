@@ -8,24 +8,8 @@ My portfolio is a web application project created with JavaScript, React, HTML5 
 
 ## How it works
 
-- [Deployed Link](https://segleston.github.io/portfolio-react/)
+- [Deployed Link](https://egleston.dev/)
 - [GitHub Link](https://github.com/segleston/portfolio-react)
-
-1. Home Page: showing name, a short bio and a head shot. There is also a navbar and footer which is shown on every page.
-
-![Home page of profile](/public/images/hello.png)
-
-2. Project Gallery: showing six projects on six cards with their name, description, image and buttons with links to deployed apps and repos. When a specific card is clicked, the project details page is shown.
-
-![Project gallery page](./public/images/gallery.png)
-
-3. Project Detail: A page showing  more information about each project including images, description, technologies used, live link and source code link.
-
-![Project details page](./public/images/details.png)
-
-4. Contact Page: showing a form requesting name, email and message and a submit button. Also icons with email/github/linkedin.
-
-![Contact us page](./public/images/contact.png)
 
 
 ## Technologies Used
