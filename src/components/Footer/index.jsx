@@ -10,7 +10,7 @@ export default function MyFooter() {
     <div className="container">
         <div className="row">
   
-            <div className="col-md-6 text-center text-md-left mb-3 mb-md-0">
+            <div className="col-md-6 text-center text-md-left mb-3 mb-md-0 footer-font">
                 <div className="d-flex justify-content-center justify-content-md-start">
                     <a href='mailto:sarah@egleston.dev' className="d-inline-block me-3">Email Me <i className="px-2 fa-solid fa-envelope"></i></a>
                     <a href='https://www.linkedin.com/in/sarah-egleston/' target='_blank' rel='noopener noreferrer' className="d-inline-block me-3">LinkedIn <i className="px-2 fa-brands fa-linkedin"></i></a>

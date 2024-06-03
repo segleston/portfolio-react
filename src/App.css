@@ -700,7 +700,7 @@ textarea.form-control {
     font-size: 4.4em !important;
   }
 
-  .home-text {
+  .home-text, .card-text {
     font-size: 1.1em !important;
   }
 
@@ -720,14 +720,36 @@ textarea.form-control {
   .photo-div {
     display: flex;
     justify-content: center;
+    text-align: center;
+  }
+  .photo-div img {
+    width: 60%; /* Set image width to 2/3 of its original size */
   }
 
   .container-home {
     padding-left: 20px;
+    padding-top: 30px;
   }
 
   .align-right {
-    font-size: 1.4em;
+    font-size: 0.9em;
+  }
+  .card-content {
+    padding-bottom: 20px;
+  }
+  .toggle-nav {
+    border: 1px solid #e32652 !important;
+    background-color: #e32652;
+  }
+  .home-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .card-content {
+    text-align: left !important;
+  }
+  .button-div {
+    margin: 0 !important;
   }
 }
 
@@ -741,17 +763,20 @@ textarea.form-control {
     font-size: 1em !important;
     text-align: center !important;
   }
+  .card-text {
+    font-size: 1em
+  }
 
   .footer a {
     font-size: 1.2em;
   }
 
-  .container-home {
+  /* .container-home {
     padding-top: 100px;
-  }
+  } */
 
   .align-right {
-    font-size: 1.2em;
+    font-size: 0.8em;
   }
 
 
@@ -767,23 +792,33 @@ textarea.form-control {
   }
 
   .photo-div {
-    padding: 0 !important;
+    padding: 20px !important;
   }
 
   .footer {
     padding: 0;
   }
+
+  .text-area {
+    margin-bottom: 10px;
+  }
 }
 
 @media only screen and (max-width: 680px) {
-  .welcome-font {
+  /* .welcome-font {
     font-size: 3.2em !important;
+  } */
+  .photo-div img {
+    width: 80%; /* Set image width to 2/3 of its original size */
+  }
+  .photo-div {
+    padding: 10px !important;
   }
 }
 
 @media only screen and (max-width: 540px) {
   .welcome-font {
-    font-size: 2.8em !important;
+    font-size: 3.2em !important;
   }
 
   .project-card {
@@ -799,24 +834,31 @@ textarea.form-control {
     font-size: 20px !important;
     width: 80rem;
   }
+  .home-text {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 }
 
 @media only screen and (max-width: 495px) {
   .welcome-font {
-    font-size: 2.3em !important;
+    font-size: 3.0em !important;
   }
 
   .container-home {
     padding-left: 7px;
   }
+  .button-div {
+    padding: 0 !important;
+  }
 }
 
 @media only screen and (max-width: 430px) {
   .welcome-font {
-    font-size: 1.6em !important;
+    font-size: 2.5em !important;
   }
 
-  .home-text {
+  .home-text, .card-text {
     font-size: 0.9em !important;
   }
 
@@ -831,11 +873,18 @@ textarea.form-control {
   .heading-font {
     font-size: 3em !important;
   }
+  .card-title, .card-text {
+    padding: 0 !important;
+  }
+  .card-title { 
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
 }
 
 @media only screen and (max-width: 370px) {
   .welcome-font {
-    font-size: 1.4em !important;
+    font-size: 2.2em !important;
   }
 
   .container-home {
@@ -852,23 +901,28 @@ textarea.form-control {
   }
 
   .header-text {
-    font-size: 1em !important;
+    font-size: 0.9em !important;
   }
 }
 
 @media only screen and (max-width: 350px) {
   .welcome-font {
-    font-size: 1.3em !important;
+    font-size: 2em !important;
   }
 
   .footer a .align-right {
-    font-size: 1em;
+    font-size: 0.7em;
   }
 
-
+  .footer-font {
+    font-size: 0.8em;
+  }
 
   .contact-links a {
     font-size: 1.5em;
+  }
+  .header-text {
+    padding: 1px !important;
   }
 }
 
@@ -885,7 +939,7 @@ textarea.form-control {
 
 @media only screen and (max-width: 287px) {
   .footer a .align-right {
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
 
   .footer {
@@ -912,7 +966,7 @@ textarea.form-control {
   }
 
   .header-text {
-    font-size: 0.7em !important;
+    font-size: 0.8em !important;
   }
 
   .skills-icon {
@@ -921,7 +975,7 @@ textarea.form-control {
 }
 
 @media only screen and (max-width: 270px) {
-  .home-text {
+  .home-text, .card-text {
     font-size: 0.8em !important;
   }
 

@@ -11,7 +11,7 @@ function MyHeader() {
       <Container fluid>
         <Link to='https://egleston.dev' className='header-text'>egleston.dev</Link>
         {/* <p className='header-text'>Sarah Egleston</p> */}
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className='toggle-nav'/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Link to="/" className='nav-link'>Home</Link>

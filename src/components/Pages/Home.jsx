@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -25,7 +25,7 @@ function Home() {
     <>
       <div className='container-fluid p-0'>
         <div className='container-home'>
-          <div className='row py-5 px-2 w-100'>
+          <div className='row px-2 w-100'>
             <Col lg={7} sm={12} className='text-area'>
               <motion.div ref={ref1} initial="hidden" animate={inView1 ? "visible" : "hidden"} variants={fadeInAnimationVariants}>
                 <h1 className='welcome-font py-3'>Hi, I'm Sarah.</h1>
@@ -58,7 +58,7 @@ function Home() {
                     <Badge bg="info" className="me-2 tech-button">JavaScript</Badge>
                     <Badge bg="info" className="me-2 tech-button">React</Badge>
                     <Badge bg="info" className="me-2 tech-button">Node.js</Badge>
-                    <Badge bg="info" className="me-2 tech-button">CSS</Badge>
+                    <Badge bg="info" className='me-2 tech-button'>CSS</Badge>
                     <Badge bg="info" className='tech-button'>HTML</Badge>
                   </div>
                 </div>
@@ -98,7 +98,7 @@ function Home() {
 
         </Container>
 
-        <div className="d-flex justify-content-center my-5 py-5">
+        <div className="d-flex justify-content-center my-5 py-5 button-div">
           <Link to="/portfolio" className='button-text'>
             <button>See More</button>
           </Link>
@@ -109,4 +109,3 @@ function Home() {
 }
 
 export default Home;
-
